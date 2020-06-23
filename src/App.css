@@ -1,3 +1,201 @@
+@import "index.css";
+
+.Footsie {
+  padding-top: 55px;
+  color: white;
+  font-size: 20px;
+}
+
+.prolay{
+  position: absolute;
+  top: 253px;
+  width: 100%;
+}
+
+.forImg{
+  padding-left: 40px;
+}
+
+.cone{
+  position: absolute;
+  top: 200px;
+  width: 60%;
+  left: 20%;
+}
+
+.cone2{
+  position: absolute;
+  top: 773px;
+  width: 100%;
+}
+
+.cone3{
+  position: absolute;
+  top: 860px;
+  width: 100%;
+}
+
+.background{
+  width: 100% !important;
+}
+
+.prolay2{
+  position: absolute;
+  top: 323px;
+  width: 100%;
+}
+
+.prolay3{
+  position: absolute;
+  top: 420px;
+  width: 100%;
+}
+
+.prolay4{
+  position: absolute;
+  top: 350px;
+  width: 100%;
+}
+
+.prolay5{
+  position: absolute;
+  top: 950px !important;
+  width: 100%;
+}
+
+.overlay{
+  position: absolute;
+  top: 353px;
+  width: 100%;
+}
+
+.overlay2{
+  position: absolute;
+  top: 503px;
+  width: 100%;
+}
+
+.overlay3{
+  position: absolute;
+  top: 603px;
+  width: 100%;
+}
+
+.overlay4{
+  position: absolute;
+  top: 603px;
+  width: 100%;
+}
+
+.header-overlay{
+  position: absolute;
+  top: 1063px;
+  width: 100%;
+}
+
+.header-overlay2{
+  position: absolute;
+  top: 1303px;
+  width: 100%;
+}
+
+.header-overlay3{
+  position: absolute;
+  top: 1465px;
+  width: 100%;
+}
+
+.header-overlay4{
+  position: absolute;
+  top: 1552px;
+  width: 100%;
+}
+
+.school{
+  position: absolute;
+  top: 2170px;
+  width: 70%;
+  padding-left: 620px;
+}
+
+.header-overlay4ish{
+  position: absolute;
+  top: 1970px;
+  width: 70%;
+  left: 15% !important;
+}
+
+.header-overlay5{
+  position: absolute;
+  top: 2285px;
+  width: 100%;
+}
+
+.footpro{
+  position: absolute;
+  top: 1505px;
+  width: 100%;
+  padding-left: 1000px;
+}
+
+.footpro2{
+  position: absolute;
+  top: 1290px !important;
+  width: 100%;
+  padding-left: 1000px;
+}
+
+.footerContact {
+  position: absolute;
+  top: 1320px;
+  width: 100%;
+  font-size: large;
+  padding-left: 165px;
+}
+
+.pro-footer{
+  position: absolute;
+  top: 1540px;
+  width: 100%;
+  padding-left: 165px;
+  font-size: large;
+}
+
+.foots{
+  position: absolute;
+  top: 2665px;
+  width: 100%;
+  padding-left: 1010px;
+}
+
+.foots2{
+  position: absolute;
+  width: 100%;
+  top: 3270px;
+  padding-left: 1000px;
+}
+
+.foots-footer{
+  position: absolute;
+  top: 2700px;
+  width: 100%;
+  padding-left: 160px;
+}
+
+.foots-footer2{
+  position: absolute;
+  top: 3325px;
+  width: 100%;
+  padding-left: 165px;
+}
+
+.pro-foots{
+  position: absolute;
+  top: 1665px;
+  width: 100%;
+  padding-left: 1100px;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +203,33 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.height{
+  padding-top: 50px;
+  height: 110px
+}
+
+.height2{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.click{
+  padding-bottom: 25px;
+}
+
+.school{
+  padding-bottom: 55px;
+}
+
+.phys-Width{
+  width: 100% !important;
+}
+
+video{
+  width: 100%;
+  height: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -36,3 +261,5912 @@
     transform: rotate(360deg);
   }
 }
+
+body,html{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  line-height: .1em !important;
+}
+
+/* table shadow */
+.ui.basic.table{
+  box-shadow: 0 10px 10px 0 , 0 0 0 1px #d4d4d5 !important;
+}
+
+/* slides */
+.section-top {
+  height: 125vh;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../src/images/coder5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100% !important;
+  animation: slide 25s infinite;
+}
+
+.content{
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content h1{
+  color: white;
+  font-size: 60px;
+  letter-spacing: 16px;
+}
+
+.content a{
+  background: #0984e3;
+  padding: 10px 24px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+/* desktop view */
+@keyframes slide {
+  20%{
+    background-image: url("./images/coder2.jpg");
+  }
+  53%{
+    background-image: url("./images/coder.jpg");
+  }
+  87%{
+    background-image: url("./images/SoftwareEngineer.jpg");
+  }
+}
+
+.navHomeBtn{
+  background-color: #0985e34d;
+  padding-top: 60px;
+  padding-left: 105px;
+  color: black;
+  font-size: 23px;
+}
+
+.navHomeBtn2{
+  background-color: black;
+  padding-top: 60px;
+  padding-left: 105px;
+  color: white;
+  font-size: 23px;
+}
+
+.section-topps{
+  width: 750px;
+  height: 400px;
+  position: relative;
+  background-image: url("../src/images/mac2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100% !important;
+  animation: slider 20s infinite;
+}
+
+@keyframes slider {
+  20%{
+    background-image: url("./images/mac.jpeg");
+  }
+  53%{
+    background-image: url("./images/codingDesk.jpg");
+  }
+  87%{
+    background-image: url("./images/codingDesk2.jpg");
+  }
+}
+
+.section-topps2{
+  width: 750px;
+  height: 400px;
+  position: relative;
+  background-image: url("../src/images/smileDPL.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100% !important;
+  animation: slidey 20s infinite;
+}
+
+@keyframes slidey {
+  20%{
+    background-image: url("./images/Dev.png");
+  }
+  53%{
+    background-image: url("./images/launch.jpg");
+  }
+  87%{
+    background-image: url("./images/launch2.jpg");
+  }
+}
+
+.me {
+  height: 100vh;
+  position: relative;
+  background-image: url("./images/Brick.png");
+  background-size: 100% 100% !important;
+}
+
+.content2{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content3{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  text-align: center;
+  color:white;
+}
+
+.content3 h2{
+  color: white;
+  font-size: 35px;
+  letter-spacing: 16px;
+}
+
+.text{
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  padding-top: 25px;
+  line-height: 24px;
+  margin: 0em !important;
+  text-transform: none !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sidebyside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+button{
+  box-shadow: inset 0 0 3px rgb(0, 0, 0) !important;
+}
+
+p {
+  font-size: 20px;
+  padding: 10px;
+  line-height: 24px;
+  margin: 0em !important;
+}
+
+.P{
+  font-size: 20px;
+  padding: 10px;
+  line-height: 24px;
+  color: black;
+}
+
+/* scrollbar projects */
+select:hover {    
+  background-color:rgba(173, 216, 230, 0.781) ;
+}
+
+option:hover {
+  background-color:rgba(173, 216, 230, 0.781) !important;
+}
+
+/* scrollbar */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 8px black;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black !important;
+  border-radius: 90px !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0984e3 !important;
+  border-radius: 15px !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3rem;
+  background: #f9f9f9;
+  overflow-x: hidden;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 2rem;
+}
+
+.main-header{
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding:2rem
+}
+
+.main-header h1{
+  font-size: 4reml;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.main-header h1 span {
+  color: #b50d10;
+}
+
+.colorFont{
+  color: #000000;
+}
+
+.img {
+  width: 100%;
+}
+
+.card {
+  background: linear-gradient(60deg,black,transparent) !important;
+}
+
+.card2{
+  background: linear-gradient(60deg,#0985e357,transparent) !important;
+}
+
+.proj{
+  background: linear-gradient(60deg,#0985e357,transparent) !important;
+  height: 1400px !important;
+}
+
+.card h3{
+  margin-bottom: 2rem;
+}
+
+.Bobbo img{
+  height:150px !important;
+   width: 140px !important;
+}
+
+.card > div {
+  padding: 2em;
+}
+
+.card:nth-child(even) img{
+  order: 2;
+}
+
+.btn{
+  display: inline-blockl;
+  background: #000;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+.cust{
+  display: flex;
+  padding-bottom: 55px;
+  background-color: black;
+  color: black;
+  font-size: 30px;
+  justify-content: flex-end;
+  padding-right: 150px;
+  font-size: 23px;
+}
+
+@media(max-width: 700px){
+  .card{
+    display: block;
+  }
+}
+
+section{
+  margin:0;
+  padding:0;
+  background: rgba(0,0,0,0,0.8);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+section .scroll{
+  display: grid;
+  place-items: center;
+  text-align: center;
+  /* border: 10px solid #fff; */
+  margin-bottom: 100px;
+}
+
+.customCardlook {
+  padding: 1em .01em !important; 
+}
+
+section .scroll span{
+  font-family: sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.footsie{
+  background: #0984e3;
+  height: 150px;
+}
+
+.Footsie2{
+background: black;
+height: 150px;
+}
+
+.ui.card, .ui.cards>.card {
+  box-shadow: 0 10px 10px 0 , 0 0 0 1px #d4d4d5 !important;
+}
+
+
+@media screen and (max-width: 2560px) {
+
+  .me{
+    height: 100vh;
+    position: relative;
+    background-image: url(/static/media/Brick.155e0b80.png);
+    background-size: 100% 100% !important;
+  }
+
+  .content{
+    position: absolute !important;
+    top: 35% !important;
+    left: 25% !important;
+    transform: translate(-50%, -50%) !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+  }
+  
+  .content h1{
+    color: white !important;
+    font-size: 65px !important;
+    letter-spacing: 20px !important;
+  }
+  
+  .content a{
+    background: #0984e3 !important;
+    padding: 10px 24px !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 40px !important;
+    border-radius: 20px !important;
+  }
+
+  .background{
+    width: 100% !important;
+  }
+
+  .ui-basic-table-cardi{
+    width: 100% !important;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px black !important;
+    border-radius: 10px !important;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black !important;
+    border-radius: 90px !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0984e3 !important;
+    border-radius: 15px !important;
+  }
+
+  .customCardlook {
+    padding: 1em .01em !important; 
+ } 
+
+  .content{
+    width: 100% !important;
+    top: 80%;
+    left: 50%;
+    font-size: large;
+  }
+
+  .section-top {
+    width: 100% !important;
+    height: 1400px !important;
+  }
+
+  .section-topps2{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .section-topps{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .Card2{
+    width: 100% !important;
+  }
+
+  .column{
+    width: 100% !important;
+    padding-top: 30px;
+    display: grid !important;
+  }
+
+  select{
+    width: 100% !important; 
+  }
+
+  .ui-four-column{
+    width: 100% !important; 
+  }
+
+  .sidebyside{
+    width: 100% !important;
+  }
+
+  .navHomeBtn{
+    background-color: #0985e34d;
+    padding-top: 60px;
+    padding-left: 105px;
+    color: black !important;
+    font-size: 23px;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 105px;
+    color: black;
+    font-size: 23px;
+  }
+
+  P {
+    width: 100%!important;
+    font-size: x-large;
+  }
+
+  .ui.card:last-child{
+    width: 100% !important;
+  }
+
+  center {
+    width: 100% !important;
+  }
+
+  .footsie {
+    width: 100% !important;
+    font-size: 13px !important;
+    height: 230px;
+  }
+
+  .Footsie2 {
+    background: black;
+    height: 230px;
+    font-size: 14px !important;
+  }
+
+    .black{
+      background-color: black;
+    }
+    
+    body{
+      width: 100% !important;
+    }
+
+    p{
+      width: 100% !important;
+      /* font-size: xx-large; */
+    }
+
+    .text{
+      font-size: larger;
+    }
+
+    center{
+      width: 100% !important;
+    }
+
+    Footer{
+      width: 100% !important;
+    }
+
+    Table{
+      width: 100% !important;
+    }
+
+    .sidebyside {
+      font-size: x-large;
+    }
+
+    .ui-link-card-cardi{
+      width: 100% !important;
+    }
+
+    .header-overlay{
+      position: absolute;
+      top: 1500px;
+      width: 40%;
+      left: 30%;
+    }
+
+    .header-overlay2 {
+      position: absolute;
+      top: 1850px;
+      width: 70%!important;
+      left: 15%;
+    }
+
+    .header-overlay3{
+      position: absolute;
+      top: 2100px;
+      width: 40%;
+      left: 30%;
+      height: 150px;
+    }
+
+    .header-overlay4{
+      position: absolute;
+      top: 2370px;
+    }
+
+    .header-overlay5{
+      position: absolute;
+      top: 3600px;
+    }
+
+    .foots-footer{
+      top: 4410px;
+      font-size: larger;
+      width: 100%;
+    }
+
+    .foots{
+      top:4370px;
+    }
+
+    .foots-footer2{
+      top: 4020px;
+      font-size: larger;
+    }
+
+    .foots2{
+      top: 3980px;
+    }
+    .prolay2{
+      width: 80%;
+      left: 10%;
+    }
+    .height{
+      height: 150px;
+    }
+
+    .c{
+      widows: 10px;;
+    }
+}
+
+
+@media screen and (max-width: 1451px) {
+
+  .me{
+    height: 100vh;
+    position: relative;
+    background-image: url(/static/media/Brick.155e0b80.png);
+    background-size: 100% 100% !important;
+  }
+
+  .content{
+    position: absolute !important;
+    top: 40% !important;
+    left: 26% !important;
+    transform: translate(-50%, -50%) !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+  }
+  
+  .content h1{
+    color: white !important;
+    font-size: 45px !important;
+    letter-spacing: 16px !important;
+  }
+  
+  .content a{
+    background: #0984e3 !important;
+    padding: 10px 24px !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 20px !important;
+    border-radius: 20px !important;
+  }
+
+  .background{
+    width: 100% !important;
+  }
+
+  .ui-basic-table-cardi{
+    width: 100% !important;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px black !important;
+    border-radius: 10px !important;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black !important;
+    border-radius: 90px !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0984e3 !important;
+    border-radius: 15px !important;
+  }
+
+  .customCardlook {
+    padding: 1em .01em !important; 
+ } 
+
+  .content{
+    width: 100% !important;
+    top: 80%;
+    left: 50%;
+    font-size: large;
+  }
+
+  .section-top {
+    width: 100% !important;
+    height: 1000px !important;
+  }
+
+  .section-topps2{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .section-topps{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .Card2{
+    width: 100% !important;
+  }
+
+  .column{
+    width: 100% !important;
+    padding-top: 30px;
+    display: grid !important;
+  }
+
+  select{
+    width: 100% !important; 
+  }
+
+  .ui-four-column{
+    width: 100% !important; 
+  }
+
+  .sidebyside{
+    width: 100% !important;
+  }
+
+  .navHomeBtn{
+    background-color: #0985e34d;
+    padding-top: 60px;
+    padding-left: 105px;
+    color: black !important;
+    font-size: 23px;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 105px;
+    color: black;
+    font-size: 23px;
+  }
+
+  P {
+    width: 100% !important;
+  }
+
+  .ui.card:last-child{
+    width: 100% !important;
+  }
+
+  center {
+    width: 100% !important;
+  }
+
+  .footsie {
+    width: 100% !important;
+    font-size: 13px !important;
+    height: 230px;
+  }
+
+  .Footsie2 {
+    background: black;
+    height: 230px;
+    font-size: 14px !important;
+  }
+
+    .black{
+      background-color: black;
+    }
+    
+    body{
+      width: 100% !important;
+    }
+
+    p{
+      width: 100% !important;
+      font-size: medium;
+    }
+
+    .text{
+      font-size: large;
+    }
+
+    center{
+      width: 100% !important;
+    }
+
+    Footer{
+      width: 100% !important;
+    }
+
+    Table{
+      width: 100% !important;
+    }
+
+    .sidebyside{
+      font-size: small;
+    }
+
+    .ui-link-card-cardi{
+      width: 100% !important;
+    }
+
+    .header-overlay{
+      position: absolute;
+      top: 1080px;
+      width: 70%;
+      left: 15%;
+    }
+
+    .header-overlay2{
+      position: absolute;
+      top: 1320px;
+    }
+
+    .header-overlay3{
+      position: absolute;
+      top: 1485px;
+      width: 70%;
+      left: 15%;
+    }
+
+    .header-overlay4{
+      position: absolute;
+      top: 1666px;
+    }
+
+    .header-overlay5{
+      position: absolute;
+      top: 2295px;
+    }
+
+    .foots-footer{
+      top: 2735px;
+      font-size: larger;
+    }
+
+    .foots{
+      top:2700px;
+    }
+
+    .foots-footer2{
+      top: 3650px;
+      font-size: larger;
+    }
+
+    .foots2{
+      top: 3625px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+  .me{
+    height: 100vh;
+    position: relative;
+    background-image: url(/static/media/Brick.155e0b80.png);
+    background-size: 100% 100% !important;
+  }
+
+  .content{
+    position: absolute !important;
+    top: 40% !important;
+    left: 26% !important;
+    transform: translate(-50%, -50%) !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+  }
+  
+  .content h1{
+    color: white !important;
+    font-size: 45px !important;
+    letter-spacing: 16px !important;
+  }
+  
+  .content a{
+    background: #0984e3 !important;
+    padding: 10px 24px !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 20px !important;
+    border-radius: 20px !important;
+  }
+
+  .background{
+    width: 100% !important;
+  }
+
+  .ui-basic-table-cardi{
+    width: 100% !important;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px black !important;
+    border-radius: 10px !important;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black !important;
+    border-radius: 90px !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0984e3 !important;
+    border-radius: 15px !important;
+  }
+
+  .customCardlook {
+    padding: 1em .01em !important; 
+ } 
+
+  .content{
+    width: 100% !important;
+    top: 80%;
+    left: 50%;
+    font-size: large;
+  }
+
+  .section-top {
+    width: 100% !important;
+    height: 1000px !important;
+  }
+
+  .section-topps2{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .section-topps{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .Card2{
+    width: 100% !important;
+  }
+
+  .column{
+    width: 100% !important;
+    padding-top: 30px;
+    display: grid !important;
+  }
+
+  select{
+    width: 100% !important; 
+  }
+
+  .ui-four-column{
+    width: 100% !important; 
+  }
+
+  .sidebyside{
+    width: 100% !important;
+  }
+
+  .navHomeBtn{
+    background-color: #0985e34d;
+    padding-top: 60px;
+    padding-left: 105px;
+    color: black !important;
+    font-size: 23px;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 105px;
+    color: black;
+    font-size: 23px;
+  }
+
+  P {
+    width: 100% !important;
+  }
+
+  .ui.card:last-child{
+    width: 100% !important;
+  }
+
+  center {
+    width: 100% !important;
+  }
+
+  .footsie {
+    width: 100% !important;
+    font-size: 20px !important;
+    height: 0px;
+  }
+
+  .Footsie2 {
+    background: black;
+    height: 230px;
+    font-size: 14px !important;
+  }
+
+    .black{
+      background-color: black;
+    }
+    
+    body{
+      width: 100% !important;
+    }
+
+    p{
+      width: 100% !important;
+      font-size: medium;
+    }
+
+    .text{
+      font-size: large;
+    }
+
+    center{
+      width: 100% !important;
+    }
+
+    Footer{
+      width: 100% !important;
+    }
+
+    Table{
+      width: 100% !important;
+    }
+
+    .sidebyside{
+      font-size: small;
+    }
+
+    .ui-link-card-cardi{
+      width: 100% !important;
+    }
+
+    .header-overlay{
+      position: absolute;
+      top: 1080px;
+      width: 70%;
+      left: 15%;
+    }
+
+    .header-overlay2{
+      position: absolute;
+      top: 1320px;
+    }
+
+    .header-overlay3{
+      position: absolute;
+      top: 1485px;
+      width: 70%;
+      left: 15%;
+    }
+
+    .header-overlay4{
+      position: absolute;
+      top: 1608.5px;
+    }
+
+    .header-overlay5{
+      position: absolute;
+      top: 2280px;
+    }
+
+    .foots-footer{
+      top: 2750px;
+      font-size: larger;
+    }
+
+    .foots{
+      top:2720px;
+    }
+
+    .foots-footer2{
+      /* top: 3427px; */
+      font-size: larger;
+    }
+
+    .prolay2{
+      width: 80%;
+      left: 10%;
+    }
+
+}
+
+
+@media screen and (max-width: 1440px) {
+
+  .me{
+    height: 100vh;
+    position: relative;
+    background-image: url(/static/media/Brick.155e0b80.png);
+    background-size: 100% 100% !important;
+  }
+
+  .content{
+    position: absolute !important;
+    top: 40% !important;
+    left: 26% !important;
+    transform: translate(-50%, -50%) !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+  }
+  
+  .content h1{
+    color: white !important;
+    font-size: 45px !important;
+    letter-spacing: 16px !important;
+  }
+  
+  .content a{
+    background: #0984e3 !important;
+    padding: 10px 24px !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 20px !important;
+    border-radius: 20px !important;
+  }
+
+  .background{
+    width: 100% !important;
+  }
+
+  .ui-basic-table-cardi{
+    width: 100% !important;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px black !important;
+    border-radius: 10px !important;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black !important;
+    border-radius: 90px !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0984e3 !important;
+    border-radius: 15px !important;
+  }
+
+  .customCardlook {
+    padding: 1em .01em !important; 
+ } 
+
+  .content{
+    width: 100% !important;
+    top: 80%;
+    left: 50%;
+    font-size: large;
+  }
+
+  .section-top {
+    width: 100% !important;
+    height: 1000px !important;
+  }
+
+  .section-topps2{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .section-topps{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .Card2{
+    width: 100% !important;
+  }
+
+  .column{
+    width: 100% !important;
+    padding-top: 30px;
+    display: grid !important;
+  }
+
+  select{
+    width: 100% !important; 
+  }
+
+  .ui-four-column{
+    width: 100% !important; 
+  }
+
+  .sidebyside{
+    width: 100% !important;
+  }
+
+  .navHomeBtn{
+    background-color: #0985e34d;
+    padding-top: 60px;
+    padding-left: 105px;
+    color: black !important;
+    font-size: 23px;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 105px;
+    color: black;
+    font-size: 23px;
+  }
+
+  P {
+    width: 100% !important;
+  }
+
+  .ui.card:last-child{
+    width: 100% !important;
+  }
+
+  center {
+    width: 100% !important;
+  }
+
+  .footsie {
+    width: 100% !important;
+    font-size: 13px !important;
+    height: 230px;
+  }
+
+  .Footsie2 {
+    background: black;
+    height: 230px;
+    font-size: 14px !important;
+  }
+
+    .black{
+      background-color: black;
+    }
+    
+    body{
+      width: 100% !important;
+    }
+
+    p{
+      width: 100% !important;
+      font-size: medium;
+    }
+
+    .text{
+      font-size: large;
+    }
+
+    center{
+      width: 100% !important;
+    }
+
+    Footer{
+      width: 100% !important;
+    }
+
+    Table{
+      width: 100% !important;
+    }
+
+    .sidebyside{
+      font-size: small;
+    }
+
+    .ui-link-card-cardi{
+      width: 100% !important;
+    }
+
+    .header-overlay{
+      position: absolute;
+      top: 1080px;
+      width: 70%;
+      left: 15%;
+    }
+
+    .header-overlay2{
+      position: absolute;
+      top: 1320px;
+    }
+
+    .header-overlay3{
+      position: absolute;
+      top: 1485px;
+      width: 70%;
+      left: 15%;
+    }
+
+    .header-overlay4{
+      position: absolute;
+      top: 1605.5px;
+    }
+
+    .header-overlay5{
+      position: absolute;
+      top: 2280px;
+    }
+
+    .foots-footer{
+      top: 2750px;
+      font-size: larger;
+    }
+
+    .foots{
+      top:2720px;
+    }
+
+    .foots-footer2{
+      top: 3320px;
+      font-size: larger;
+    }
+
+    .foots2{
+      top: 3290px;
+    }
+
+    .prolay2{
+      width: 80%;
+      left: 10%;
+    }
+}
+
+@media screen and (maz-widrh: 1330px){
+  .foots2 {
+    top: 3873px!important;
+    padding-left: 690px;
+  }
+
+  .foots-footer2 {
+    top: 3915px;
+    padding-left: 180px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+
+  .me{
+    height: 100vh;
+    position: relative;
+    background-image: url(/static/media/Brick.155e0b80.png);
+    background-size: 100% 100% !important;
+  }
+
+  .content{
+    position: absolute !important;
+    top: 40% !important;
+    left: 26% !important;
+    transform: translate(-50%, -50%) !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+  }
+  
+  .content h1{
+    color: white !important;
+    font-size: 45px !important;
+    letter-spacing: 16px !important;
+  }
+  
+  .content a{
+    background: #0984e3 !important;
+    padding: 10px 24px !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 20px !important;
+    border-radius: 20px !important;
+  }
+
+  .background{
+    width: 100% !important;
+  }
+
+  .ui-basic-table-cardi{
+    width: 100% !important;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px black !important;
+    border-radius: 10px !important;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black !important;
+    border-radius: 90px !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0984e3 !important;
+    border-radius: 15px !important;
+  }
+
+  .customCardlook {
+    padding: 1em .01em !important; 
+ } 
+
+  .content{
+    width: 100% !important;
+    top: 80%;
+    left: 50%;
+    font-size: large;
+  }
+
+  .section-top {
+    width: 100% !important;
+    height: 1000px !important;
+  }
+
+  .section-topps2{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .section-topps{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .Card2{
+    width: 100% !important;
+  }
+
+  .column{
+    width: 100% !important;
+    padding-top: 30px;
+    display: grid !important;
+  }
+
+  select{
+    width: 100% !important; 
+  }
+
+  .ui-four-column{
+    width: 100% !important; 
+  }
+
+  .sidebyside{
+    width: 100% !important;
+  }
+
+  .navHomeBtn{
+    background-color: #0985e34d;
+    padding-top: 60px;
+    padding-left: 105px;
+    color: black !important;
+    font-size: 23px;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 105px;
+    color: black;
+    font-size: 23px;
+  }
+
+  P {
+    width: 100% !important;
+  }
+
+  .ui.card:last-child{
+    width: 100% !important;
+  }
+
+  center {
+    width: 100% !important;
+  }
+
+  .footsie {
+    width: 100% !important;
+    font-size: 20px !important;
+    height: 0px;
+  }
+
+  .Footsie2 {
+    background: black;
+    height: 230px;
+    font-size: 14px !important;
+  }
+
+    .black{
+      background-color: black;
+    }
+    
+    body{
+      width: 100% !important;
+    }
+
+    p{
+      width: 100% !important;
+      font-size: medium;
+    }
+
+    .text{
+      font-size: large;
+    }
+
+    center{
+      width: 100% !important;
+    }
+
+    Footer{
+      width: 100% !important;
+    }
+
+    Table{
+      width: 100% !important;
+    }
+
+    .sidebyside{
+      font-size: small;
+    }
+
+    .ui-link-card-cardi{
+      width: 100% !important;
+    }
+
+    .header-overlay{
+      position: absolute;
+      top: 1080px;
+      width: 70%;
+      left: 15%;
+    }
+
+    .header-overlay2{
+      position: absolute;
+      top: 1320px;
+    }
+
+    .header-overlay3{
+      position: absolute;
+      top: 1485px;
+      width: 70%;
+      left: 15%;
+    }
+
+    .header-overlay4{
+      position: absolute;
+      top: 1608.5px;
+    }
+
+    .header-overlay5{
+      position: absolute;
+      top: 2280px;
+    }
+
+    .foots-footer{
+      top: 2750px;
+      font-size: larger;
+    }
+
+    .foots{
+      top:2720px;
+    }
+
+    .foots-footer2{
+      /* top: 3427px; */
+      font-size: larger;
+    }
+
+    .prolay2{
+      width: 80%;
+      left: 10%;
+    }
+
+}
+
+
+/* I Phone size */
+@media screen and (max-width: 1400px) {
+
+  .content2{
+    position: absolute;
+    top: 50%;
+    left: 33.5%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .card{
+    width: 80%;
+  }
+
+  .content3 {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.me {
+  height: 80vh;
+  position: relative;
+  background-image: url(/static/media/Brick.155e0b80.png);
+  background-size: 100% 100% !important;
+}
+
+  .navHomeBtn{
+    padding-left: 400px !important;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 400px !important;
+    color: black;
+    font-size: 23px;
+  }
+
+  .pro-footer{
+    position: absolute;
+    top: 1535px;
+    width: 100%;
+    padding-left: 0px;
+    font-size: small;
+  }
+  
+    .footpro{
+      position: absolute;
+      top: 1560px;
+      width: 100%;
+      padding-left: 35px;
+    }
+  
+    .footpro2{
+      position: absolute;
+      top: 1540px !important;
+      width: 100%;
+      padding-left: 25px;
+    }
+  
+    .foots{
+      position: absolute;
+      top: 1865px;
+      width: 100%;
+    }
+    
+    .prolay{
+      position: absolute;
+      top: 370px;
+      width: 100%;
+    }
+
+    .prolay2{
+      position: absolute;
+      top: 455px;
+      width: 80%;
+      left: 10%;
+    }
+  
+    .prolay3{
+      position: absolute;
+      top: 505px;
+      width: 100%;
+    }
+  
+    .nav{
+      line-height: 2.1em !important;
+    }
+  
+    video{
+      width: 1200px;
+      height: 100%;
+    }
+  
+    .foots{
+      position: absolute;
+      top: 2130px;
+      width: 100%;
+      padding-left: 700px;
+    }
+  
+    .foots2{
+      position: absolute;
+      top: 3900px !important;
+      width: 100%;
+      padding-left: 690px;
+    }
+    
+    .foots-footer {
+      position: absolute;
+      top: 2158px;
+      width: 100%;
+      font-size: large;
+      padding-left: 165px;
+    }
+  
+    .foots-footer2 {
+      position: absolute;
+      top: 3865px;
+      width: 100%;
+      font-size: small;
+      padding-left: 180px;
+    }
+  
+    .footerContact {
+      position: absolute;
+      top: 1510px;
+      width: 100%;
+      font-size: small;
+      padding-left: 5px;
+    }
+   
+    .header-overlay{
+      position: absolute;
+      top: 750px;
+      left: 10%;
+      max-width: 810px !important;
+    }
+  
+    .header-overlay2{
+      position: absolute;
+      top: 950px;
+    }
+  
+    .header-overlay3{
+      position: absolute;
+      top: 1090px;
+      left: 10%;
+      max-width: 810px !important;
+    }
+  
+    .header-overlay4{
+      position: absolute;
+      top: 1195px;
+      width: 102% !important;
+      /* left: 10%; */
+      right: 4%;
+    }
+  
+    .header-overlay5{
+      position: absolute;
+      top: 1750px;
+      width: 80%;
+      left: 10%;
+    }
+  
+    .Utah{
+      position: relative;
+      top: 2px;
+      padding-left: 10px;
+    }
+  
+    .content{
+      position: absolute !important;
+      top: 70% !important;
+      transform: translate(-50%, -50%) !important;
+      text-transform: uppercase !important;
+      text-align: center !important;
+    }
+  
+    .contect{
+      width: 100% !important;
+    }
+  
+    .content h1{
+      color: white !important;
+      font-size: 30px !important;
+      letter-spacing: 16px !important;
+    }
+    
+    .content a{
+      background: #0984e3 !important;
+      padding: 10px 24px !important;
+      color: white !important;
+      text-decoration: none !important;
+      font-size: 18px !important;
+      border-radius: 20px !important;
+    }
+  
+    .background{
+      width: 100% !important;
+    }
+  
+    .ui-basic-table-cardi{
+      width: 100% !important;
+    }
+  
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 8px black !important;
+      border-radius: 10px !important;
+    }
+    
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px black !important;
+      border-radius: 90px !important;
+    }
+    
+    ::-webkit-scrollbar {
+      width: 8px !important;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: #0984e3 !important;
+      border-radius: 15px !important;
+    }
+  
+    .cust{
+      padding-top: 30px;
+      display: grid !important;
+      padding-right: 465px;
+      padding-right: 465px !important;
+    }
+  
+    .customCardlook {
+      padding: 1em .01em !important; 
+   } 
+  
+    .content{
+      width: 100% !important;
+      top: 80%;
+      left: 50%;
+      font-size: small;
+    }
+  
+    .section-top {
+      width: 100% !important;
+      height: 700px !important;
+    }
+  
+    .section-topps2{
+      width: 100% !important;
+      height: 300px !important;
+    }
+  
+    .section-topps{
+      width: 100% !important;
+      height: 300px !important;
+    }
+  
+    .Card2{
+      width: 100% !important;
+    }
+  
+    .column{
+      width: 100% !important;
+      padding-top: 30px;
+      display: grid !important;
+    }
+  
+    select{
+      width: 100% !important; 
+    }
+  
+    .ui-four-column{
+      width: 100% !important; 
+    }
+  
+    .content {
+      width: 100% !important;
+      font-size: small;
+    }
+  
+    .sidebyside{
+      width: 100% !important;
+    }
+  
+    .navHomeBtn{
+      background-color: #0985e34d;
+      padding-top: 60px;
+      padding-left: 65px;
+      color: black !important;
+      font-size: 23px;
+    }
+  
+    .navHomeBtn2{
+      background-color: black;
+      padding-top: 60px;
+      padding-left: 65px;
+      color: black;
+      font-size: 23px;
+    }
+  
+    P {
+      width: 100% !important;
+    }
+  
+    .ui.card:last-child{
+      width: 100% !important;
+    }
+  
+    center {
+      width: 100% !important;
+    }
+  
+    .footsie {
+      width: 100% !important;
+      font-size: 20px !important;
+      height: 0px;
+    }
+  
+    .Footsie2 {
+      background: black;
+      height: 250px;
+      font-size: 18px !important;
+    }
+  
+      .black{
+        background-color: black;
+      }
+      
+      body{
+        width: 100% !important;
+      }
+  
+      p{
+        width: 100% !important;
+        font-size: medium;
+      }
+  
+      .text{
+        font-size: small;
+      }
+  
+      center{
+        width: 100% !important;
+      }
+  
+      Footer{
+        width: 100% !important;
+      }
+  
+      Table{
+        width: 100% !important;
+      }
+  
+      .sidebyside{
+        font-size: small;
+      }
+
+      .overlay4{
+        position: absolute;
+        top: 603px;
+        width: 80%;
+        left: 10%;
+      }
+  }
+
+
+/* I Phone size */
+@media screen and (max-width: 1384px) {
+
+  .content2{
+    position: absolute;
+    top: 50%;
+    left: 33.5%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .card{
+    width: 80%;
+  }
+
+  .content3 {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.me {
+  height: 80vh;
+  position: relative;
+  background-image: url(/static/media/Brick.155e0b80.png);
+  background-size: 100% 100% !important;
+}
+
+  .navHomeBtn{
+    padding-left: 400px !important;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 400px !important;
+    color: black;
+    font-size: 23px;
+  }
+
+  .pro-footer{
+    position: absolute;
+    top: 1535px;
+    width: 100%;
+    padding-left: 0px;
+    font-size: small;
+  }
+  
+    .footpro{
+      position: absolute;
+      top: 1560px;
+      width: 100%;
+      padding-left: 35px;
+    }
+  
+    .footpro2{
+      position: absolute;
+      top: 1540px !important;
+      width: 100%;
+      padding-left: 25px;
+    }
+  
+    .foots{
+      position: absolute;
+      top: 1865px;
+      width: 100%;
+    }
+    
+    .prolay{
+      position: absolute;
+      top: 370px;
+      width: 100%;
+    }
+
+    .prolay2{
+      position: absolute;
+      top: 455px;
+      width: 80%;
+      left: 10%;
+    }
+  
+    .prolay3{
+      position: absolute;
+      top: 505px;
+      width: 100%;
+    }
+  
+    .nav{
+      line-height: 2.1em !important;
+    }
+  
+    video{
+      width: 1200px;
+      height: 100%;
+    }
+  
+    .foots{
+      position: absolute;
+      top: 2130px;
+      width: 100%;
+      padding-left: 700px;
+    }
+  
+    .foots2{
+      position: absolute;
+      top: 4373px !important;
+      width: 100%;
+      padding-left: 690px;
+    }
+    
+    .foots-footer {
+      position: absolute;
+      top: 2158px;
+      width: 100%;
+      font-size: large;
+      padding-left: 165px;
+    }
+  
+    .foots-footer2 {
+      position: absolute;
+      top: 3865px;
+      width: 100%;
+      font-size: small;
+      padding-left: 180px;
+    }
+  
+    .footerContact {
+      position: absolute;
+      top: 1510px;
+      width: 100%;
+      font-size: small;
+      padding-left: 5px;
+    }
+   
+    .header-overlay{
+      position: absolute;
+      top: 750px;
+      left: 10%;
+      max-width: 810px !important;
+    }
+  
+    .header-overlay2{
+      position: absolute;
+      top: 950px;
+    }
+  
+    .header-overlay3{
+      position: absolute;
+      top: 1090px;
+      left: 10%;
+      max-width: 810px !important;
+    }
+  
+    .header-overlay4{
+      position: absolute;
+      top: 1195px;
+      width: 102% !important;
+      /* left: 10%; */
+      right: 4%;
+    }
+  
+    .header-overlay5{
+      position: absolute;
+      top: 1750px;
+      width: 80%;
+      left: 10%;
+    }
+  
+    .Utah{
+      position: relative;
+      top: 2px;
+      padding-left: 10px;
+    }
+  
+    .content{
+      position: absolute !important;
+      top: 70% !important;
+      transform: translate(-50%, -50%) !important;
+      text-transform: uppercase !important;
+      text-align: center !important;
+    }
+  
+    .contect{
+      width: 100% !important;
+    }
+  
+    .content h1{
+      color: white !important;
+      font-size: 30px !important;
+      letter-spacing: 16px !important;
+    }
+    
+    .content a{
+      background: #0984e3 !important;
+      padding: 10px 24px !important;
+      color: white !important;
+      text-decoration: none !important;
+      font-size: 18px !important;
+      border-radius: 20px !important;
+    }
+  
+    .background{
+      width: 100% !important;
+    }
+  
+    .ui-basic-table-cardi{
+      width: 100% !important;
+    }
+  
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 8px black !important;
+      border-radius: 10px !important;
+    }
+    
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px black !important;
+      border-radius: 90px !important;
+    }
+    
+    ::-webkit-scrollbar {
+      width: 8px !important;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: #0984e3 !important;
+      border-radius: 15px !important;
+    }
+  
+    .cust{
+      padding-top: 30px;
+      display: grid !important;
+      padding-right: 465px;
+      padding-right: 465px !important;
+    }
+  
+    .customCardlook {
+      padding: 1em .01em !important; 
+   } 
+  
+    .content{
+      width: 100% !important;
+      top: 80%;
+      left: 50%;
+      font-size: small;
+    }
+  
+    .section-top {
+      width: 100% !important;
+      height: 700px !important;
+    }
+  
+    .section-topps2{
+      width: 100% !important;
+      height: 300px !important;
+    }
+  
+    .section-topps{
+      width: 100% !important;
+      height: 300px !important;
+    }
+  
+    .Card2{
+      width: 100% !important;
+    }
+  
+    .column{
+      width: 100% !important;
+      padding-top: 30px;
+      display: grid !important;
+    }
+  
+    select{
+      width: 100% !important; 
+    }
+  
+    .ui-four-column{
+      width: 100% !important; 
+    }
+  
+    .content {
+      width: 100% !important;
+      font-size: small;
+    }
+  
+    .sidebyside{
+      width: 100% !important;
+    }
+  
+    .navHomeBtn{
+      background-color: #0985e34d;
+      padding-top: 60px;
+      padding-left: 65px;
+      color: black !important;
+      font-size: 23px;
+    }
+  
+    .navHomeBtn2{
+      background-color: black;
+      padding-top: 60px;
+      padding-left: 65px;
+      color: black;
+      font-size: 23px;
+    }
+  
+    P {
+      width: 100% !important;
+    }
+  
+    .ui.card:last-child{
+      width: 100% !important;
+    }
+  
+    center {
+      width: 100% !important;
+    }
+  
+    .footsie {
+      width: 100% !important;
+      font-size: 18px !important;
+      height: 230px;
+    }
+  
+    .Footsie2 {
+      background: black;
+      height: 250px;
+      font-size: 18px !important;
+    }
+  
+      .black{
+        background-color: black;
+      }
+      
+      body{
+        width: 100% !important;
+      }
+  
+      p{
+        width: 100% !important;
+        font-size: medium;
+      }
+  
+      .text{
+        font-size: small;
+      }
+  
+      center{
+        width: 100% !important;
+      }
+  
+      Footer{
+        width: 100% !important;
+      }
+  
+      Table{
+        width: 100% !important;
+      }
+  
+      .sidebyside{
+        font-size: small;
+      }
+
+      .overlay4{
+        position: absolute;
+        top: 603px;
+        width: 80%;
+        left: 10%;
+      }
+  }
+
+
+
+  /* I Phone size */
+  @media screen and (max-width: 1024px) {
+
+  .content{
+    position: absolute !important;
+    top: 40% !important;
+    transform: translate(-50%, -50%) !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+  }
+
+  .content2{
+    position: absolute;
+    top: 50%;
+    left: 33.5%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .card{
+    width: 80%;
+  }
+
+  .content3 {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.me {
+  height: 80vh;
+  position: relative;
+  background-image: url(/static/media/Brick.155e0b80.png);
+  background-size: 100% 100% !important;
+}
+
+  .navHomeBtn{
+    padding-left: 400px !important;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 400px !important;
+    color: black;
+    font-size: 23px;
+  }
+
+  .pro-footer{
+    position: absolute;
+    top: 1535px;
+    width: 100%;
+    padding-left: 0px;
+    font-size: small;
+  }
+  
+    .footpro{
+      position: absolute;
+      top: 1560px;
+      width: 100%;
+      padding-left: 35px;
+    }
+  
+    .footpro2{
+      position: absolute;
+      top: 1540px !important;
+      width: 100%;
+      padding-left: 25px;
+    }
+  
+    
+    .prolay{
+      position: absolute;
+      top: 370px;
+      width: 100%;
+    }
+    
+    .prolay2{
+      position: absolute;
+      top: 455px;
+      width: 80%;
+      /* left: 10%; */
+    }
+    
+    .prolay3{
+      position: absolute;
+      top: 505px;
+      width: 100%;
+    }
+    
+    .nav{
+      line-height: 2.1em !important;
+    }
+    
+    video{
+      width: 1200px;
+      height: 100%;
+    }
+    
+    .foots{
+      position: absolute;
+      top: 2150px;
+      width: 100%;
+      padding-left: 700px;
+    }
+    
+    .foots2{
+      position: absolute;
+      /* top: 3810px !important; */
+      top: 3810px ;
+      width: 100%;
+      padding-left: 690px;
+    }
+    
+    .foots-footer {
+      position: absolute;
+      top: 2185px;
+      width: 100%;
+      font-size: small;
+      padding-left: 165px;
+    }
+  
+    .foots-footer2 {
+      position: absolute;
+      top: 3845px;
+      width: 100%;
+      font-size: small;
+      padding-left: 180px;
+    }
+  
+    .footerContact {
+      position: absolute;
+      top: 1510px;
+      width: 100%;
+      font-size: small;
+      padding-left: 5px;
+    }
+   
+    .header-overlay{
+      position: absolute;
+      top: 750px;
+      left: 15%;
+      max-width: 810px !important;
+    }
+  
+    .header-overlay2{
+      position: absolute;
+      top: 950px;
+    }
+  
+    .header-overlay3{
+      position: absolute;
+      top: 1090px;
+      left: 15%;
+      max-width: 810px !important;
+    }
+  
+    .header-overlay4{
+      position: absolute;
+      top: 1195px;
+      width: 100%;
+      left: .00000001% !important;
+    }
+  
+    .header-overlay5{
+      position: absolute;
+      top: 1750px;
+      width: 80%;
+      left: 10%;
+    }
+  
+    .Utah{
+      position: relative;
+      top: 2px;
+      padding-left: 10px;
+    }
+  
+  
+    .contect{
+      width: 100% !important;
+    }
+  
+    .content h1{
+      color: white !important;
+      font-size: 30px !important;
+      letter-spacing: 16px !important;
+    }
+    
+    .content a{
+      background: #0984e3 !important;
+      padding: 10px 24px !important;
+      color: white !important;
+      text-decoration: none !important;
+      font-size: 18px !important;
+      border-radius: 20px !important;
+    }
+  
+    .background{
+      width: 100% !important;
+    }
+  
+    .ui-basic-table-cardi{
+      width: 100% !important;
+    }
+  
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 8px black !important;
+      border-radius: 10px !important;
+    }
+    
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px black !important;
+      border-radius: 90px !important;
+    }
+    
+    ::-webkit-scrollbar {
+      width: 8px !important;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: #0984e3 !important;
+      border-radius: 15px !important;
+    }
+  
+    .cust{
+      padding-top: 30px;
+      display: grid !important;
+      padding-right: 465px;
+      padding-right: 465px !important;
+    }
+  
+    .customCardlook {
+      padding: 1em .01em !important; 
+   } 
+  
+    .content{
+      width: 100% !important;
+      top: 80%;
+      left: 50%;
+      font-size: small;
+    }
+  
+    .section-top {
+      width: 100% !important;
+      height: 700px !important;
+    }
+  
+    .section-topps2{
+      width: 100% !important;
+      height: 300px !important;
+    }
+  
+    .section-topps{
+      width: 100% !important;
+      height: 300px !important;
+    }
+  
+    .Card2{
+      width: 100% !important;
+    }
+  
+    .column{
+      width: 100% !important;
+      padding-top: 30px;
+      display: grid !important;
+    }
+  
+    select{
+      width: 100% !important; 
+    }
+  
+    .ui-four-column{
+      width: 100% !important; 
+    }
+  
+    .content {
+      width: 100% !important;
+      font-size: small;
+    }
+  
+    .sidebyside{
+      width: 100% !important;
+    }
+  
+    .navHomeBtn{
+      background-color: #0985e34d;
+      padding-top: 60px;
+      padding-left: 65px;
+      color: black !important;
+      font-size: 23px;
+    }
+  
+    .navHomeBtn2{
+      background-color: black;
+      padding-top: 60px;
+      padding-left: 65px;
+      color: black;
+      font-size: 23px;
+    }
+  
+    P {
+      width: 100% !important;
+    }
+  
+    .ui.card:last-child{
+      width: 100% !important;
+    }
+  
+    center {
+      width: 100% !important;
+    }
+  
+    .footsie {
+      width: 100% !important;
+      font-size: 18px !important;
+      height: 230px;
+    }
+  
+    .Footsie2 {
+      background: black;
+      height: 250px;
+      font-size: 18px !important;
+    }
+  
+      .black{
+        background-color: black;
+      }
+      
+      body{
+        width: 100% !important;
+      }
+  
+      p{
+        width: 100% !important;
+        font-size: medium;
+      }
+  
+      .text{
+        font-size: small;
+      }
+  
+      center{
+        width: 100% !important;
+      }
+  
+      Footer{
+        width: 100% !important;
+      }
+  
+      Table{
+        width: 100% !important;
+      }
+  
+      .sidebyside{
+        font-size: small;
+      }
+
+      .overlay4{
+        position: absolute;
+        top: 603px;
+        width: 80%;
+        left: 10%;
+      }
+  }
+
+  /* I Phone size */
+@media screen and (max-width: 790px) {
+
+  .content2{
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .foots2{
+    position: absolute;
+    top: 3800px;
+    width: 100%;
+    padding-left: 35px;
+  }
+
+  .navHomeBtn{
+    padding-left: 105px !important;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 105px !important;
+    color: black;
+    font-size: 23px;
+  }
+
+.pro-footer{
+  position: absolute;
+  top: 1535px;
+  width: 100%;
+  padding-left: 45px;
+  font-size: small;
+}
+
+  .footpro{
+    position: absolute;
+    top: 1560px;
+    width: 100%;
+    padding-left: 40px;
+  }
+
+  .footpro2{
+    position: absolute;
+    top: 1540px !important;
+    width: 100%;
+    padding-left: 40px;
+  }
+
+  .prolay{
+    position: absolute;
+    top: 350px;
+    width: 100%;
+  }
+
+  .prolay2{
+    position: absolute;
+    top: 425px;
+    width: 100%;
+  }
+
+  .prolay3{
+    position: absolute;
+    top: 505px;
+    width: 100%;
+  }
+
+  .nav{
+    line-height: 2.1em !important;
+  }
+
+  video{
+    height: 100%;
+  }
+
+  .foots{
+    position: absolute;
+    top: 1865px;
+    width: 100%;
+    padding-left: 35px;
+  }
+
+  .foots-footer {
+    position: absolute;
+    top: 1840px;
+    width: 100%;
+    font-size: small;
+    padding-left: 45px;
+  }
+
+  .foots-footer2 {
+    position: absolute;
+    top: 3770px;
+    width: 100%;
+    font-size: small;
+    padding-left: 45px;
+  }
+
+  .footerContact {
+    position: absolute;
+    top: 1510px;
+    width: 100%;
+    font-size: small;
+    padding-left: 45px;
+  }
+
+  .header-overlay{
+    position: absolute;
+    top: 400px;
+    width: 100%;
+  }
+
+  .header-overlay2{
+    position: absolute;
+    top: 615px;
+    width: 100%;
+  }
+
+  .header-overlay3{
+    position: absolute;
+    top: 710px;
+    width: 100%;
+  }
+
+  .header-overlay4{
+    position: absolute;
+    top: 800px;
+    width: 100%;
+  }
+
+  .header-overlay5{
+    position: absolute;
+    top: 1450px;
+    width: 100%;
+  }
+
+  .Utah{
+    position: relative;
+    top: 2px;
+    padding-left: 10px;
+  }
+
+  .content{
+    position: absolute !important;
+    top: 70% !important;
+    transform: translate(-50%, -50%) !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+  }
+
+  .contect{
+    width: 100% !important;
+  }
+
+  .content h1{
+    color: white !important;
+    font-size: 30px !important;
+    letter-spacing: 16px !important;
+  }
+  
+  .content a{
+    background: #0984e3 !important;
+    padding: 10px 24px !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 18px !important;
+    border-radius: 20px !important;
+  }
+
+  .background{
+    width: 100% !important;
+  }
+
+  .ui-basic-table-cardi{
+    width: 100% !important;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px black !important;
+    border-radius: 10px !important;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black !important;
+    border-radius: 90px !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0984e3 !important;
+    border-radius: 15px !important;
+  }
+
+  .cust{
+    padding-top: 30px;
+    display: grid !important;
+  }
+
+  .customCardlook {
+    padding: 1em .01em !important; 
+ } 
+
+  .content{
+    width: 100% !important;
+    top: 80%;
+    left: 50%;
+    font-size: small;
+  }
+
+  .section-top {
+    width: 100% !important;
+    height: 350px !important;
+  }
+
+  .section-topps2{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .section-topps{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .Card2{
+    width: 100% !important;
+  }
+
+  .column{
+    width: 100% !important;
+    padding-top: 30px;
+    display: grid !important;
+  }
+
+  select{
+    width: 100% !important; 
+  }
+
+  .ui-four-column{
+    width: 100% !important; 
+  }
+
+  .content {
+    width: 100% !important;
+    font-size: small;
+  }
+
+  .sidebyside{
+    width: 100% !important;
+  }
+
+  .navHomeBtn{
+    background-color: #0985e34d;
+    padding-top: 60px;
+    padding-left: 65px;
+    color: black !important;
+    font-size: 23px;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 65px;
+    color: black;
+    font-size: 23px;
+  }
+
+  P {
+    width: 100% !important;
+  }
+
+  .ui.card:last-child{
+    width: 100% !important;
+  }
+
+  center {
+    width: 100% !important;
+  }
+
+  .footsie {
+    width: 100% !important;
+    font-size: 18px !important;
+    height: 230px;
+  }
+
+  .Footsie2 {
+    background: black;
+    height: 250px;
+    font-size: 18px !important;
+  }
+
+    .black{
+      background-color: black;
+    }
+    
+    body{
+      width: 100% !important;
+    }
+
+    p{
+      width: 100% !important;
+      font-size: small;
+    }
+
+    .text{
+      font-size: small;
+    }
+
+    center{
+      width: 100% !important;
+    }
+
+    Footer{
+      width: 100% !important;
+    }
+
+    Table{
+      width: 100% !important;
+    }
+
+    .sidebyside{
+      font-size: small;
+    }
+}
+
+/* I Phone size */
+@media screen and (max-width: 768px) {
+
+  .content2{
+    position: absolute;
+    top: 45%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .content3{
+    Top: 52%;
+    left: 70%;
+  }
+
+  .overlay4{
+    width: 80%;
+    left: 10%;
+  }
+  
+  .prolay2{
+    width: 80% !important;
+    left: 10%;
+  }
+  
+  .navHomeBtn{
+    padding-left: 280px !important;
+  }
+  
+  .cust{
+    padding-right: 330px !important;
+    /* padding-right: 330px !important; */
+  }
+  
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 62px !important;
+    color: black;
+    font-size: 23px;
+  }
+  
+  .pro-footer{
+    position: absolute;
+    top: 1540px;
+    width: 100%;
+    padding-left: 45px;
+    font-size: small;
+  }
+  
+  .footpro{
+    position: absolute;
+    top: 1500px;
+    width: 100%;
+    padding-left: 450px;
+  }
+  
+  .footpro2{
+    position: absolute;
+    top: 1540px !important;
+    width: 100%;
+    padding-left: 40px;
+  }
+  
+  .prolay{
+    position: absolute;
+    top: 350px;
+    width: 100%;
+  }
+  
+  .prolay2{
+    position: absolute;
+    top: 425px;
+  }
+  
+  .prolay3{
+    position: absolute;
+    top: 505px;
+    width: 100%;
+  }
+  
+  .nav{
+    line-height: 2.1em !important;
+  }
+  
+  video{
+    height: 100%;
+  }
+  
+  .foots{
+    position: absolute;
+    top: 1950px;
+    width: 100%;
+    padding-left: 435px;
+  }
+  
+  .foots2{
+    position: absolute;
+    /* top: 4575px !important; */
+    top: 4575px;
+    top: 4575px;
+    width: 100%;
+    padding-left: 420px;
+  }
+
+  .foots-footer {
+    position: absolute;
+    top: 2010px;
+    width: 100%;
+    font-size: small;
+    padding-left: 45px;
+  }
+
+  .foots-footer2 {
+    position: absolute;
+    top: 4645px;
+    width: 100%;
+    font-size: small;
+    padding-left: 44px;
+  }
+
+  .footerContact {
+    position: absolute;
+    top: 1510px;
+    width: 100%;
+    font-size: small;
+    padding-left: 45px;
+  }
+ 
+  .header-overlay{
+    position: absolute;
+    top: 520px;
+    width: 70%;
+  }
+
+  .header-overlay2{
+    position: absolute;
+    top: 745px;
+    width: 100%;
+  }
+
+  .header-overlay3{
+    position: absolute;
+    top: 850px;
+    width: 70%;
+  }
+
+  .header-overlay4{
+    position: absolute;
+    top: 977px;
+    width: 100%;
+  }
+
+  .header-overlay5{
+    position: absolute;
+    top: 1600px;
+    width: 80%;
+  }
+  
+  .Utah{
+    position: relative;
+    top: 2px;
+    padding-left: 10px;
+  }
+
+  .content{
+    position: absolute !important;
+    top: 35% !important;
+    transform: translate(-50%, -50%) !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+  }
+
+  .contect{
+    width: 100% !important;
+  }
+
+  .content h1{
+    color: white !important;
+    font-size: 20px !important;
+    letter-spacing: 16px !important;
+  }
+  
+  .content a{
+    background: #0984e3 !important;
+    padding: 10px 24px !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 18px !important;
+    border-radius: 20px !important;
+  }
+
+  .background{
+    width: 100% !important;
+  }
+
+  .ui-basic-table-cardi{
+    width: 100% !important;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px black !important;
+    border-radius: 10px !important;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black !important;
+    border-radius: 90px !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0984e3 !important;
+    border-radius: 15px !important;
+  }
+
+  .cust{
+    padding-top: 30px;
+    display: grid !important;
+    padding-right: 330px;
+  }
+
+  .customCardlook {
+    padding: 1em .01em !important; 
+ } 
+
+  .content{
+    width: 100% !important;
+    top: 80%;
+    left: 50%;
+    font-size: small;
+  }
+
+  .section-top {
+    width: 100% !important;
+    height: 500px !important;
+  }
+
+  .section-topps2{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .section-topps{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .Card2{
+    width: 100% !important;
+  }
+
+  .column{
+    width: 100% !important;
+    padding-top: 30px;
+    display: grid !important;
+  }
+
+  select{
+    width: 100% !important; 
+  }
+
+  .ui-four-column{
+    width: 100% !important; 
+  }
+
+  .content {
+    width: 100% !important;
+    font-size: small;
+  }
+
+  .sidebyside{
+    width: 80% !important;
+  }
+
+  .navHomeBtn{
+    background-color: #0985e34d;
+    padding-top: 60px;
+    padding-left: 65px;
+    color: black !important;
+    font-size: 23px;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 275px !important;
+    color: black;
+    font-size: 23px;
+  }
+
+  P {
+    width: 100% !important;
+  }
+
+  .ui.card:last-child{
+    width: 100% !important;
+  }
+
+  center {
+    width: 100% !important;
+  }
+
+  .footsie {
+    width: 100% !important;
+    font-size: 18px !important;
+    height: 230px;
+  }
+
+  .Footsie2 {
+    background: black;
+    height: 250px;
+    font-size: 18px !important;
+  }
+
+    .black{
+      background-color: black;
+    }
+    
+    body{
+      width: 100% !important;
+    }
+
+    p{
+      width: 100% !important;
+      font-size: larger;
+    }
+
+    .text{
+      font-size: larger !important;
+    }
+
+    center{
+      width: 100% !important;
+    }
+
+    Footer{
+      width: 100% !important;
+    }
+
+    Table{
+      width: 100% !important;
+    }
+
+    .sidebyside{
+      font-size: small;
+    }
+  }
+  
+  /* I Phone size */
+  @media screen and (max-width: 425px) {
+    
+    .content{
+      position: absolute !important;
+      top: 70% !important;
+      left: 50% !important;
+      transform: translate(-50%, -50%) !important;
+      text-transform: uppercase !important;
+      text-align: center !important;
+    }
+    
+    .content h1{
+      color: white !important;
+      font-size: 30px !important;
+      letter-spacing: 16px !important;
+    }
+    
+  .content2{
+    position: absolute;
+    top: 50%;
+    left: 33.5%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 105px !important;
+    color: black;
+    font-size: 23px;
+  }
+
+  .pro-footer{
+    position: absolute;
+    top: 1535px;
+    width: 100%;
+    padding-left: 0px;
+    font-size: small;
+  }
+  
+    .footpro{
+      position: absolute;
+      top: 1560px;
+      width: 100%;
+      padding-left: 35px;
+    }
+  
+    .footpro2{
+      position: absolute;
+      top: 1540px !important;
+      width: 100%;
+      padding-left: 25px;
+    }
+  
+    .prolay{
+      position: absolute;
+      top: 350px;
+      width: 100%;
+    }
+  
+    .prolay2{
+      position: absolute;
+      top: 425px;
+      width: 100%;
+    }
+  
+    .prolay3{
+      position: absolute;
+      top: 505px;
+      width: 100%;
+    }
+  
+    .nav{
+      line-height: 2.1em !important;
+    }
+  
+    video{
+      width: 1200px;
+      height: 100%;
+    }
+  
+    .foots{
+      position: absolute;
+      top: 1873px;
+      width: 100%;
+      padding-left: 35px;
+    }
+  
+    .foots2{
+      position: absolute;
+      top: 4200px;
+      width: 100%;
+      padding-left: 35px;
+    }
+    
+    .foots-footer2 {
+      position: absolute;
+      top: 4180px;
+      width: 100%;
+      font-size: small;
+      padding-left: 45px;
+    }
+
+    .foots-footer {
+      position: absolute;
+      top: 1855px;
+      width: 100%;
+      font-size: small;
+      padding-left: 40px;
+      /* left: 35px; */
+    }
+  
+    .footerContact {
+      position: absolute;
+      top: 1510px;
+      width: 100%;
+      font-size: small;
+      padding-left: 5px;
+    }
+  
+    .header-overlay{
+      position: absolute;
+      top: 360px;
+      width: 70%;
+    }
+  
+    .header-overlay2{
+      position: absolute;
+      top: 600px;
+      width: 100%;
+    }
+  
+    .header-overlay3{
+      position: absolute;
+      top: 690px;
+      width: 70%;
+    }
+  
+    .header-overlay4{
+      position: absolute;
+      top: 798px;
+      width: 100%;
+    }
+  
+    .header-overlay5{
+      position: absolute;
+      top: 1495px;
+      width: 85%;
+    }
+    
+    .Utah{
+      position: relative;
+      top: 2px;
+      padding-left: 10px;
+    }
+  
+    .contect{
+      width: 100% !important;
+    }
+  
+    .content a{
+      background: #0984e3 !important;
+      padding: 10px 24px !important;
+      color: white !important;
+      text-decoration: none !important;
+      font-size: 18px !important;
+      border-radius: 20px !important;
+    }
+  
+    .background{
+      width: 100% !important;
+    }
+  
+    .ui-basic-table-cardi{
+      width: 100% !important;
+    }
+  
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 8px black !important;
+      border-radius: 10px !important;
+    }
+    
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px black !important;
+      border-radius: 90px !important;
+    }
+    
+    ::-webkit-scrollbar {
+      width: 8px !important;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: #0984e3 !important;
+      border-radius: 15px !important;
+    }
+  
+    .cust{
+      padding-top: 30px;
+      display: grid !important;
+      padding-right: 165px !important;
+    }
+
+    .card{
+      width: 100%;
+    }
+  
+    .customCardlook {
+      padding: 1em .01em !important; 
+   } 
+  
+    .content{
+      width: 100% !important;
+      top: 80%;
+      left: 50%;
+      font-size: small;
+    }
+  
+    .section-top {
+      width: 100% !important;
+      height: 350px !important;
+    }
+  
+    .section-topps2{
+      width: 100% !important;
+      height: 300px !important;
+    }
+  
+    .section-topps{
+      width: 100% !important;
+      height: 300px !important;
+    }
+  
+    .Card2{
+      width: 100% !important;
+    }
+  
+    .column{
+      width: 100% !important;
+      padding-top: 30px;
+      display: grid !important;
+    }
+  
+    select{
+      width: 100% !important; 
+    }
+  
+    .ui-four-column{
+      width: 100% !important; 
+    }
+  
+    .content {
+      width: 100% !important;
+      font-size: small;
+    }
+  
+    .sidebyside{
+      width: 100% !important;
+    }
+  
+    .navHomeBtn{
+      background-color: #0985e34d;
+      padding-top: 60px;
+      padding-left: 65px;
+      color: black !important;
+      font-size: 23px;
+    }
+  
+    .navHomeBtn2{
+      background-color: black;
+      padding-top: 60px;
+      padding-left: 65px;
+      color: black;
+      font-size: 23px;
+    }
+  
+    P {
+      width: 100% !important;
+    }
+  
+    .ui.card:last-child{
+      width: 100% !important;
+    }
+  
+    center {
+      width: 100% !important;
+    }
+  
+    .footsie {
+      width: 100% !important;
+      font-size: 18px !important;
+      height: 230px;
+    }
+  
+    .Footsie2 {
+      background: black;
+      height: 250px;
+      font-size: 18px !important;
+    }
+  
+      .black{
+        background-color: black;
+      }
+      
+      body{
+        width: 100% !important;
+      }
+  
+      p{
+        width: 100% !important;
+        font-size: small;
+      }
+  
+      .text{
+        font-size: small;
+      }
+  
+      center{
+        width: 100% !important;
+      }
+  
+      Footer{
+        width: 100% !important;
+      }
+  
+      Table{
+        width: 100% !important;
+      }
+  
+      .sidebyside{
+        font-size: small;
+      }
+  }
+
+
+/* I Phone size */
+@media only screen and (max-width: 414px) {
+
+  .content2 {
+    position: absolute;
+    top: 50%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .content3{
+    left: 70%;
+    top: 55%;
+  }
+
+  .navHomeBtn{
+    padding-left: 62px !important;
+  }
+  
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 62px !important;
+    color: black;
+    font-size: 23px;
+  }
+  
+  .pro-footer{
+    position: absolute;
+    top: 1535px;
+    width: 100%;
+    padding-left: 45px;
+    font-size: x-small;
+  }
+  
+  .footpro{
+    position: absolute;
+    top: 1560px;
+    width: 105%;
+    padding-left: 40px;
+  }
+  
+  .footpro2{
+    position: absolute;
+    top: 1540px !important;
+    width: 100%;
+    padding-left: 40px;
+  }
+  
+  .prolay{
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    padding-left: 80px;
+  }
+  
+  .prolay2{
+    position: absolute;
+    top: 475px;
+    width: 100% !important;
+  }
+  
+  .prolay3{
+    position: absolute;
+    top: 505px;
+    padding-left: 80px;
+  }
+  
+  .nav{
+    line-height: 2.1em !important;
+  }
+  
+  video{
+    height: 100%;
+  }
+  
+  .foots{
+    position: absolute;
+    top: 2220px;
+    width: 101%;
+    padding-left: 35px;
+  }
+
+  .foots2{
+    position: absolute;
+    top: 4250px;
+    width: 100%;
+    padding-left: 15px;
+  }
+  
+  .foots-footer {
+    position: absolute;
+    top: 2208px;
+    width: 103%;
+    font-size: small;
+    padding-left: 45px;
+  }
+
+  .foots-footer2 {
+    position: absolute;
+    top: 4353px !important;
+    width: 100%;
+    font-size: x-small;
+    padding-left: 45px;
+  }
+
+  .footerContact {
+    position: absolute;
+    top: 1540px;
+    width: 100%;
+    font-size: x-small;
+    padding-left: 45px;
+  }
+ 
+  .header-overlay {
+    position: absolute;
+    top: 700px;
+    width: 140%;
+  }
+
+  .header-overlay2{
+    position: absolute;
+    top: 900px;
+    width: 170% !important;
+    left: 5px;
+  }
+
+  .header-overlay3{
+    position: absolute;
+    top: 1000px;
+    width: 140%;
+  }
+
+  .header-overlay4{
+    position: absolute;
+    top: 1104.1px;
+    width: 160%;
+    left: 12.1% !important;
+  }
+  
+  .extra{
+    width: 576px;
+  }
+
+  .header-overlay4ish{
+    position: absolute;
+    top: 1570px;
+    width: 140%;
+    left: 15% !important;
+  }
+
+  .header-overlay5{
+    position: absolute;
+    top: 1815px;
+    width: 150%;
+    left: 55px;
+  }
+
+  .school{
+    position: absolute;
+    top: 1730px;
+    width: 170%;
+    padding-left: 290px;
+  }
+  
+  .Utah{
+    position: relative;
+    top: 2px;
+    padding-left: 10px;
+  }
+ 
+  .content{
+    position: absolute !important;
+    top: 72% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+  }
+
+  .contect{
+    width: 100% !important;
+  }
+
+  .content h1{
+    color: white !important;
+    font-size: 30px !important;
+    letter-spacing: 16px !important;
+  }
+  
+  .content a{
+    background: #0984e3 !important;
+    padding: 10px 24px !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 18px !important;
+    border-radius: 20px !important;
+  }
+
+  .background {
+    width: 130%!important;
+  }
+
+  .ui-basic-table-cardi{
+    width: 100% !important;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px black !important;
+    border-radius: 10px !important;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black !important;
+    border-radius: 90px !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0984e3 !important;
+    border-radius: 15px !important;
+  }
+
+  .cust{
+    padding-top: 30px;
+    display: grid !important;
+    padding-right: 150px;
+  }
+
+  .customCardlook {
+    padding: 1em .01em !important; 
+ } 
+
+  .content{
+    width: 100% !important;
+    top: 80%;
+    left: 50%;
+    font-size: small;
+  }
+
+  .section-top {
+    width: 170%!important;
+    height: 700px!important;
+  }
+
+  .section-topps2{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .section-topps{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .Card2{
+    width: 100% !important;
+  }
+
+  .column{
+    width: 100% !important;
+    padding-top: 30px;
+    display: grid !important;
+  }
+
+  select{
+    width: 100% !important; 
+  }
+
+  .ui-four-column{
+    width: 100% !important; 
+  }
+
+  .content {
+    width: 100% !important;
+    font-size: small;
+  }
+
+  .sidebyside{
+    width: 100% !important;
+  }
+
+  .navHomeBtn{
+    background-color: #0985e34d;
+    padding-top: 60px;
+    padding-left: 109px !important;
+    color: black !important;
+    font-size: 23px;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 65px;
+    color: black;
+    font-size: 23px;
+  }
+
+  .ui.card:last-child{
+    width: 100% !important;
+  }
+
+  center {
+    width: 100% !important;
+  }
+
+  .footsie {
+    width: 169.2%!important;
+    font-size: 18px !important;
+    height: 230px;
+  }
+
+  .Footsie2 {
+    background: black;
+    height: 250px;
+    font-size: 18px !important;
+  }
+
+    .black{
+      background-color: black;
+    }
+    
+    body{
+      width: 100% !important;
+    }
+
+    p{
+      width: 100% !important;
+      font-size: small;
+    }
+
+    .text{
+      font-size: small;
+    }
+
+    center{
+      width: 100% !important;
+    }
+
+    Footer{
+      width: 100% !important;
+    }
+
+    Table{
+      width: 100% !important;
+    }
+
+    .sidebyside{
+      font-size: small;
+    }
+
+    .height2{
+      padding-bottom: 0px;
+    }
+
+    .proj {
+      width: 420px;
+    }
+
+    .cone {
+      width: 100%;
+      left: 0px;
+    }
+
+    .footpro2{
+      top: 1560px!important;
+      width: 100%;
+      padding-left: 20px;
+    }
+
+}
+ 
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+      .content2{
+        position: absolute;
+        top: 50%;
+        left: 26.7%;
+        transform: translate(-50%, -50%);
+        text-transform: uppercase;
+        text-align: center;
+      }
+    
+      .foots2{
+        position: absolute;
+        top: 3925px !important;
+        width: 100%;
+        padding-left: 35px !important;
+      }
+
+      .navHomeBtn{
+        padding-left: 63px !important;
+      }
+
+      .navHomeBtn2{
+        background-color: black;
+        padding-top: 60px;
+        padding-left: 62px !important;
+        color: black;
+        font-size: 23px;
+      }
+    
+    .pro-footer{
+      position: absolute;
+      top: 1535px;
+      width: 100%;
+      padding-left: 45px;
+      font-size: small;
+    }
+    
+      .footpro{
+        position: absolute;
+        top: 1560px;
+        width: 100%;
+        padding-left: 40px;
+      }
+    
+      .footpro2{
+        position: absolute;
+        top: 1540px !important;
+        width: 100%;
+        padding-left: 40px;
+      }
+    
+      .prolay{
+        position: absolute;
+        top: 350px;
+        width: 100%;
+      }
+    
+      .prolay2{
+        position: absolute;
+        top: 425px;
+        width: 100%;
+      }
+    
+      .prolay3{
+        position: absolute;
+        top: 505px;
+        width: 100%;
+      }
+    
+      .nav{
+        line-height: 2.1em !important;
+      }
+    
+      video{
+        height: 100%;
+      }
+    
+      .foots{
+        position: absolute;
+        top: 1865px;
+        width: 100%;
+        padding-left: 35px;
+      }
+    
+      .foots-footer {
+        position: absolute;
+        top: 1840px;
+        width: 100%;
+        font-size: small;
+        padding-left: 45px;
+      }
+    
+      .foots-footer2 {
+        position: absolute;
+        top: 4235px !important;
+        width: 100%;
+        font-size: small;
+        padding-left: 45px;
+      }
+    
+      .footerContact {
+        position: absolute;
+        top: 1510px;
+        width: 100%;
+        font-size: small;
+        padding-left: 45px;
+      }
+     
+      .header-overlay{
+        position: absolute;
+        top: 400px;
+        width: 80%;
+      }
+    
+      .header-overlay2{
+        position: absolute;
+        top: 615px;
+        width: 100%;
+      }
+    
+      .header-overlay3{
+        position: absolute;
+        top: 710px;
+        width: 80%;
+        padding-bottom: 100px;
+      }
+    
+      .header-overlay4{
+        position: absolute;
+        top: 800px;
+        width: 100%;
+      }
+    
+      .header-overlay5{
+        position: absolute;
+        top: 1480px;
+        width: 100%;
+      }
+      
+      .Utah{
+        position: relative;
+        top: 2px;
+        padding-left: 10px;
+      }
+    
+      .content{
+        position: absolute !important;
+        top: 70% !important;
+        transform: translate(-50%, -50%) !important;
+        text-transform: uppercase !important;
+        text-align: center !important;
+      }
+    
+      .contect{
+        width: 100% !important;
+      }
+    
+      .content h1{
+        color: white !important;
+        font-size: 30px !important;
+        letter-spacing: 16px !important;
+      }
+      
+      .content a{
+        background: #0984e3 !important;
+        padding: 10px 24px !important;
+        color: white !important;
+        text-decoration: none !important;
+        font-size: 18px !important;
+        border-radius: 20px !important;
+      }
+    
+      .background{
+        width: 100% !important;
+      }
+    
+      .ui-basic-table-cardi{
+        width: 100% !important;
+      }
+    
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 8px black !important;
+        border-radius: 10px !important;
+      }
+      
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px black !important;
+        border-radius: 90px !important;
+      }
+      
+      ::-webkit-scrollbar {
+        width: 8px !important;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #0984e3 !important;
+        border-radius: 15px !important;
+      }
+    
+      .cust{
+        padding-top: 30px;
+        display: grid !important;
+        padding-left: 223px;
+      }
+    
+      .customCardlook {
+        padding: 1em .01em !important; 
+     } 
+    
+      .content{
+        width: 100% !important;
+        top: 80%;
+        left: 50%;
+        font-size: small;
+      }
+    
+      .section-top {
+        width: 100% !important;
+        height: 350px !important;
+      }
+    
+      .section-topps2{
+        width: 100% !important;
+        height: 300px !important;
+      }
+    
+      .section-topps{
+        width: 100% !important;
+        height: 300px !important;
+      }
+    
+      .Card2{
+        width: 100% !important;
+      }
+    
+      .column{
+        width: 100% !important;
+        padding-top: 30px;
+        display: grid !important;
+      }
+    
+      select{
+        width: 100% !important; 
+      }
+    
+      .ui-four-column{
+        width: 100% !important; 
+      }
+    
+      .content {
+        width: 100% !important;
+        font-size: small;
+      }
+    
+      .sidebyside{
+        width: 20% !important;
+      }
+    
+      .navHomeBtn{
+        background-color: #0985e34d;
+        padding-top: 60px;
+        padding-left: 65px;
+        color: black !important;
+        font-size: 23px;
+      }
+    
+      .navHomeBtn2{
+        background-color: black;
+        padding-top: 60px;
+        padding-left: 65px;
+        color: black;
+        font-size: 23px;
+      }
+    
+      P {
+        width: 100% !important;
+      }
+    
+      .ui.card:last-child{
+        width: 100% !important;
+      }
+    
+      center {
+        width: 100% !important;
+      }
+    
+      .footsie {
+        width: 100% !important;
+        font-size: 18px !important;
+        height: 230px;
+      }
+    
+      .Footsie2 {
+        background: black;
+        height: 250px;
+        font-size: 18px !important;
+      }
+    
+        .black{
+          background-color: black;
+        }
+        
+        body{
+          width: 100% !important;
+        }
+    
+        p{
+          width: 100% !important;
+          font-size: small;
+        }
+    
+        .text{
+          font-size: small;
+        }
+    
+        center{
+          width: 100% !important;
+        }
+    
+        Footer{
+          width: 100% !important;
+        }
+    
+        Table{
+          width: 100% !important;
+        }
+    
+        .sidebyside{
+          font-size: small;
+        }
+    }
+
+/* I Phone size */
+@media only screen and (max-width: 375px) {
+
+  .content2{
+    position: absolute;
+    top: 50%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .content3{
+    left: 70%;
+    top: 55%;
+  }
+
+  .navHomeBtn{
+    padding-left: 62px !important;
+  }
+  
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 48px !important;
+    color: black;
+    font-size: 23px;
+  }
+  
+  .pro-footer{
+    position: absolute;
+    top: 1535px;
+    width: 100%;
+    padding-left: 45px;
+    font-size: x-small;
+  }
+  
+  .footpro{
+    position: absolute;
+    top: 1560px;
+    width: 105%;
+    padding-left: 40px;
+  }
+  
+  .footpro2{
+    position: absolute;
+    top: 1540px !important;
+    width: 100%;
+    padding-left: 40px;
+  }
+  
+  .prolay{
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    padding-left: 80px;
+  }
+  
+  .prolay2{
+    position: absolute;
+    top: 475px;
+    width: 100% !important;
+  }
+  
+  .prolay3{
+    position: absolute;
+    top: 505px;
+    /* width: 100%; */
+    padding-left: 80px;
+  }
+  
+  .nav{
+    line-height: 2.1em !important;
+  }
+  
+  video{
+    height: 100%;
+  }
+  
+  .foots{
+    position: absolute;
+    top: 1925px;
+    width: 101%;
+    padding-left: 35px;
+  }
+
+  .foots2{
+    position: absolute;
+    top: 4400px ;
+    width: 100%;
+    padding-left: 15px;
+  }
+  
+  .foots-footer {
+    position: absolute;
+    top: 1908px;
+    width: 103%;
+    font-size: small;
+    padding-left: 45px;
+  }
+
+  .foots-footer2 {
+    position: absolute;
+    top: 4353px !important;
+    width: 100%;
+    font-size: small;
+    padding-left: 35px;
+  }
+
+  .footerContact {
+    position: absolute;
+    top: 1558px;
+    width: 100%;
+    font-size: x-small;
+    padding-left: 45px;
+  }
+ 
+  .header-overlay{
+    position: absolute;
+    top: 400px;
+    width: 80%;
+  }
+
+  .header-overlay2{
+    position: absolute;
+    top: 675px;
+    width: 100% !important;
+    left: 4.7%;
+  }
+
+  .header-overlay3{
+    position: absolute;
+    top: 760px;
+    width: 80%;
+  }
+
+  .header-overlay4{
+    position: absolute;
+    top: 850px;
+    width: 80%;
+    left: 4% !important;
+  }
+
+  .extra{
+    width: 276px;
+  }
+
+  .header-overlay4ish{
+    position: absolute;
+    top: 1320px;
+    width: 80%;
+    left: 15%!important;
+  }
+
+  .header-overlay5{
+    position: absolute;
+    top: 1590px;
+    width: 80%;
+    left: 55px;
+  }
+
+  .school{
+    position: absolute;
+    top: 1522px;
+    padding-left: 115px;
+    width: 80%;
+  }
+  
+  .Utah{
+    position: relative;
+    top: 2px;
+    padding-left: 10px;
+  }
+ 
+  .content{
+    position: absolute !important;
+    top: 72% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+  }
+
+  .contect{
+    width: 100% !important;
+  }
+
+  .content h1{
+    color: white !important;
+    font-size: 30px !important;
+    letter-spacing: 16px !important;
+  }
+  
+  .content a{
+    background: #0984e3 !important;
+    padding: 10px 24px !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 18px !important;
+    border-radius: 20px !important;
+  }
+
+  .background{
+    width: 106% !important;
+  }
+
+  .ui-basic-table-cardi{
+    width: 100% !important;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px black !important;
+    border-radius: 10px !important;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black !important;
+    border-radius: 90px !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0984e3 !important;
+    border-radius: 15px !important;
+  }
+
+  .cust{
+    padding-top: 30px;
+    display: grid !important;
+    padding-right: 150px;
+  }
+
+  .customCardlook {
+    padding: 1em .01em !important; 
+ } 
+
+  .content{
+    width: 100% !important;
+    top: 80%;
+    left: 50%;
+    font-size: small;
+  }
+
+  .section-top {
+    width: 112% !important;
+    height: 400px !important;
+  }
+
+  .section-topps2{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .section-topps{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .Card2{
+    width: 100% !important;
+  }
+
+  .column{
+    width: 100% !important;
+    padding-top: 30px;
+    display: grid !important;
+  }
+
+  select{
+    width: 100% !important; 
+  }
+
+  .ui-four-column{
+    width: 100% !important; 
+  }
+
+  .content {
+    width: 100% !important;
+    font-size: small;
+  }
+
+  .sidebyside{
+    width: 100% !important;
+  }
+
+  .navHomeBtn{
+    background-color: #0985e34d;
+    padding-top: 60px;
+    padding-left: 92px !important;
+    color: black !important;
+    font-size: 23px;
+  }
+  
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 65px;
+    color: black;
+    font-size: 23px;
+  }
+
+  .ui.card:last-child{
+    width: 100% !important;
+  }
+
+  center {
+    width: 100% !important;
+  }
+
+  .footsie {
+    width: 112.2%!important;
+    font-size: 18px !important;
+    height: 230px;
+  }
+  
+  .Footsie {
+    padding-top: 15px !important;
+  }
+
+  .Footsie2 {
+    background: black;
+    height: 250px;
+    font-size: 18px !important;
+  }
+
+    .black{
+      background-color: black;
+    }
+    
+    body{
+      width: 100% !important;
+    }
+
+    p{
+      width: 100% !important;
+      font-size: small;
+    }
+
+    .text{
+      font-size: small;
+    }
+
+    center{
+      width: 100% !important;
+    }
+
+    Footer{
+      width: 100% !important;
+    }
+
+    Table{
+      width: 100% !important;
+    }
+
+    .sidebyside{
+      font-size: small;
+    }
+
+    .height2{
+      padding-bottom: 0px;
+    }
+
+    .proj {
+      width: 420px;
+    }
+
+    .cone{
+      width: 100%;
+      left: 0px;
+    }
+
+    .footpro2{
+      top: 1590px!important;
+      width: 100%;
+      padding-left: 20px;
+    }
+
+}
+ 
+/* I Phone size */
+@media screen and (max-width: 360px) {
+
+  .content2{
+    position: absolute;
+    top: 50%;
+    left: 26.7%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .foots2{
+    position: absolute;
+    top: 4449px !important;
+    width: 100%;
+    padding-left: 3px;
+  }
+
+  .navHomeBtn{
+    padding-left: 62px !important;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 62px !important;
+    color: black;
+    font-size: 23px;
+  }
+
+.pro-footer{
+  position: absolute;
+  top: 1535px;
+  width: 100%;
+  padding-left: 45px;
+  font-size: small;
+}
+
+  .footpro{
+    position: absolute;
+    top: 1560px;
+    width: 100%;
+    padding-left: 40px;
+  }
+
+  .footpro2{
+    position: absolute;
+    top: 1540px !important;
+    width: 100%;
+    padding-left: 40px;
+  }
+
+  .prolay{
+    position: absolute;
+    top: 350px;
+    width: 100%;
+  }
+
+  .prolay2{
+    position: absolute;
+    top: 425px;
+    width: 100%;
+  }
+
+  .prolay3{
+    position: absolute;
+    top: 505px;
+    width: 100%;
+  }
+
+  .nav{
+    line-height: 2.1em !important;
+    width: 104%;
+  }
+
+  video{
+    height: 100%;
+  }
+
+  .foots{
+    position: absolute;
+    top: 1865px;
+    width: 100%;
+    padding-left: 30px;
+  }
+
+  .foots-footer {
+    position: absolute;
+    top: 1840px;
+    width: 100%;
+    font-size: small;
+    padding-left: 45px;
+  }
+
+  .foots-footer2 {
+    position: absolute;
+    top: 4430px !important;
+    width: 100%;
+    font-size: x-small;
+    padding-left: 45px;
+  }
+
+  .footerContact {
+    position: absolute;
+    top: 1510px;
+    width: 100%;
+    font-size: small;
+    padding-left: 45px;
+  }
+ 
+  .header-overlay{
+    position: absolute;
+    top: 350px;
+    width: 320px;
+  }
+
+  .header-overlay2{
+    position: absolute;
+    top: 615px;
+    width: 100%;
+  }
+
+  .header-overlay3{
+    position: absolute;
+    top: 710px;
+    width: 290px;
+  }
+
+  .header-overlay4{
+    position: absolute;
+    top: 800px;
+    width: 100%;
+  }
+
+  .header-overlay5{
+    position: absolute;
+    top: 1485px;
+    width: 320px;
+  }
+
+  .school{
+    left: 55px;
+  }
+
+  .Utah{
+    position: relative;
+    top: 2px;
+    padding-left: 10px;
+  }
+ 
+  .content{
+    position: absolute !important;
+    top: 70% !important;
+    transform: translate(-50%, -50%) !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+  }
+
+  .contect{
+    width: 100% !important;
+  }
+
+  .content h1{
+    color: white !important;
+    font-size: 30px !important;
+    letter-spacing: 16px !important;
+  }
+  
+  .content a{
+    background: #0984e3 !important;
+    padding: 10px 24px !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 18px !important;
+    border-radius: 20px !important;
+  }
+
+  .background{
+    width: 100% !important;
+  }
+
+  .ui-basic-table-cardi{
+    width: 100% !important;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px black !important;
+    border-radius: 10px !important;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black !important;
+    border-radius: 90px !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0984e3 !important;
+    border-radius: 15px !important;
+  }
+
+  .cust{
+    padding-top: 30px;
+    display: grid !important;
+  }
+
+  .customCardlook {
+    padding: 1em .01em !important; 
+ } 
+
+  .content{
+    width: 100% !important;
+    top: 80%;
+    left: 50%;
+    font-size: small;
+  }
+
+  .section-top {
+    width: 100% !important;
+    height: 350px !important;
+  }
+
+  .section-topps2{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .section-topps{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .Card2{
+    width: 100% !important;
+  }
+
+  .column{
+    width: 100% !important;
+    padding-top: 30px;
+    display: grid !important;
+  }
+
+  select{
+    width: 100% !important; 
+  }
+
+  .ui-four-column{
+    width: 100% !important; 
+  }
+
+  .content {
+    width: 100% !important;
+    font-size: small;
+  }
+
+  .sidebyside{
+    width: 100% !important;
+  }
+
+  .navHomeBtn{
+    background-color: #0985e34d;
+    padding-top: 60px;
+    padding-left: 65px;
+    color: black !important;
+    font-size: 23px;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 65px;
+    color: black;
+    font-size: 23px;
+  }
+
+  P {
+    width: 100% !important;
+  }
+
+  .ui.card:last-child{
+    width: 100% !important;
+  }
+
+  center {
+    width: 100% !important;
+  }
+
+  .footsie {
+    width: 100% !important;
+    font-size: 18px !important;
+    height: 230px;
+  }
+
+  .Footsie2 {
+    background: black;
+    height: 250px;
+    font-size: 18px !important;
+  }
+
+    .black{
+      background-color: black;
+    }
+    
+    body{
+      width: 100% !important;
+    }
+
+    p{
+      width: 100% !important;
+      font-size: small;
+    }
+
+    .text{
+      font-size: small;
+    }
+
+    center{
+      width: 100% !important;
+    }
+
+    Footer{
+      width: 100% !important;
+    }
+
+    Table{
+      width: 100% !important;
+    }
+
+    .sidebyside{
+      font-size: small;
+    }
+    
+}
+
+
+/* I Phone size */
+@media only screen and (min-device-width: 320px) 
+and (-webkit-device-pixel-ratio: 1) { 
+
+  .content2{
+    position: absolute;
+    top: 50%;
+    left: 26.7%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .foots2{
+    position: absolute;
+    top: 3865px;
+    width: 100%;
+    padding-left: 35px;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 62px !important;
+    color: black;
+    font-size: 23px;
+  }
+
+.pro-footer{
+  position: absolute;
+  top: 1535px;
+  width: 100%;
+  padding-left: 45px;
+  font-size: small;
+}
+
+  .footpro{
+    position: absolute;
+    top: 1560px;
+    width: 100%;
+    padding-left: 40px;
+  }
+
+  .footpro2{
+    position: absolute;
+    top: 1540px !important;
+    width: 100%;
+    padding-left: 40px;
+  }
+
+  .prolay{
+    position: absolute;
+    top: 350px;
+    width: 100%;
+  }
+
+  .prolay2{
+    position: absolute;
+    top: 425px;
+    width: 100%;
+  }
+
+  .prolay3{
+    position: absolute;
+    top: 505px;
+    width: 100%;
+  }
+
+  .nav{
+    line-height: 2.1em !important;
+  }
+
+  video{
+    height: 100%;
+  }
+
+  .foots{
+    position: absolute;
+    top: 1865px;
+    width: 100%;
+    padding-left: 35px;
+  }
+
+  .foots-footer {
+    position: absolute;
+    top: 1840px;
+    width: 100%;
+    font-size: small;
+    padding-left: 45px;
+  }
+
+  .foots-footer2 {
+    position: absolute;
+    top: 3830px;
+    width: 100%;
+    font-size: small;
+    padding-left: 45px;
+  }
+
+  .footerContact {
+    position: absolute;
+    top: 1510px;
+    width: 100%;
+    font-size: small;
+    padding-left: 45px;
+  }
+
+  .header-overlay{
+    position: absolute;
+    top: 400px;
+    width: 100%;
+  }
+
+  .header-overlay2{
+    position: absolute;
+    top: 615px;
+    width: 100%;
+  }
+
+  .header-overlay3{
+    position: absolute;
+    top: 710px;
+    width: 100%;
+  }
+
+  .header-overlay4{
+    position: absolute;
+    top: 800px;
+    width: 100%;
+  }
+
+  .header-overlay5{
+    position: absolute;
+    top: 1450px;
+    width: 100%;
+  }
+  
+  .Utah{
+    position: relative;
+    top: 2px;
+    padding-left: 10px;
+  }
+
+  .content{
+    position: absolute !important;
+    top: 70% !important;
+    transform: translate(-50%, -50%) !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+  }
+
+  .contect{
+    width: 100% !important;
+  }
+
+  .content h1{
+    color: white !important;
+    font-size: 30px !important;
+    letter-spacing: 16px !important;
+  }
+  
+  .content a{
+    background: #0984e3 !important;
+    padding: 10px 24px !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 18px !important;
+    border-radius: 20px !important;
+  }
+
+  .background{
+    width: 100% !important;
+  }
+
+  .ui-basic-table-cardi{
+    width: 100% !important;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px black !important;
+    border-radius: 10px !important;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black !important;
+    border-radius: 90px !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0984e3 !important;
+    border-radius: 15px !important;
+  }
+
+  .cust{
+    padding-top: 30px;
+    display: grid !important;
+  }
+
+  .customCardlook {
+    padding: 1em .01em !important; 
+ } 
+
+  .content{
+    width: 100% !important;
+    top: 80%;
+    left: 50%;
+    font-size: small;
+  }
+
+  .section-top {
+    width: 100% !important;
+    height: 350px !important;
+  }
+
+  .section-topps2{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .section-topps{
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .Card2{
+    width: 100% !important;
+  }
+
+  .column{
+    width: 100% !important;
+    padding-top: 30px;
+    display: grid !important;
+  }
+
+  select{
+    width: 100% !important; 
+  }
+
+  .ui-four-column{
+    width: 100% !important; 
+  }
+
+  .content {
+    width: 100% !important;
+    font-size: small;
+  }
+
+  .sidebyside{
+    width: 100% !important;
+  }
+
+  .navHomeBtn{
+    background-color: #0985e34d;
+    padding-top: 60px;
+    padding-left: 65px;
+    color: black !important;
+    font-size: 23px;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 65px;
+    color: black;
+    font-size: 23px;
+  }
+
+  P {
+    width: 100% !important;
+  }
+
+  .ui.card:last-child{
+    width: 100% !important;
+  }
+
+  center {
+    width: 100% !important;
+  }
+
+  .footsie {
+    width: 100% !important;
+    font-size: 18px !important;
+    height: 230px;
+  }
+
+  .Footsie2 {
+    background: black;
+    height: 250px;
+    font-size: 18px !important;
+  }
+
+    .black{
+      background-color: black;
+    }
+    
+    body{
+      width: 100% !important;
+    }
+
+    p{
+      width: 100% !important;
+      font-size: small;
+    }
+
+    .text{
+      font-size: small;
+    }
+
+    center{
+      width: 100% !important;
+    }
+
+    Footer{
+      width: 100% !important;
+    }
+
+    Table{
+      width: 100% !important;
+    }
+
+    .sidebyside{
+      font-size: small;
+    }
+}
+
+/* I Phone size */
+@media screen and (max-width: 320px) {
+
+  .content2{
+    position: absolute;
+    top: 50%;
+    left: 33.5%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .navHomeBtn2{
+    background-color: black;
+    padding-top: 60px;
+    padding-left: 100px !important;
+    color: black;
+    font-size: 23px;
+  }
+
+  .pro-footer{
+    position: absolute;
+    top: 1535px;
+    width: 100%;
+    padding-left: 0px;
+    font-size: small;
+  }
+  
+    .footpro{
+      position: absolute;
+      top: 1560px;
+      width: 100%;
+      padding-left: 35px;
+    }
+  
+    .footpro2{
+      position: absolute;
+      top: 1540px !important;
+      width: 100%;
+      padding-left: 25px;
+    }
+  
+    .prolay{
+      position: absolute;
+      top: 350px;
+      width: 100%;
+    }
+  
+    .prolay2{
+      position: absolute;
+      top: 425px;
+      width: 100%;
+    }
+    
+    .prolay3{
+      position: absolute;
+      top: 505px;
+      width: 100%;
+    }
+    
+    .nav{
+      line-height: 2.1em !important;
+      width: 129%;
+    }
+    
+    video{
+      width: 1200px;
+      height: 100%;
+    }
+    
+    .foots{
+      position: absolute;
+      top: 1865px;
+      width: 100%;
+      padding-left: 35px;
+    }
+
+    .foots2{
+      position: absolute;
+      top: 4220px !important;
+      width: 110%;
+      padding-left: 37px;
+    }
+    
+    .foots-footer {
+      position: absolute;
+      top: 1840px;
+      width: 100%;
+      font-size: small;
+      padding-left: 5px;
+    }
+  
+    .foots-footer2 {
+      position: absolute;
+      top: 4200px !important;
+      width: 100%;
+      font-size: x-small;
+      padding-left: 45px;
+    }
+  
+    .footerContact {
+      position: absolute;
+      top: 1510px;
+      width: 100%;
+      font-size: small;
+      padding-left: 5px;
+    }
+   
+    .header-overlay{
+      position: absolute;
+      top: 400px;
+      width: 100%;
+    }
+  
+    .header-overlay2{
+      position: absolute;
+      top: 615px;
+      width: 100%;
+    }
+  
+    .header-overlay3{
+      position: absolute;
+      top: 710px;
+      width: 100%;
+    }
+  
+    .header-overlay4{
+      position: absolute;
+      top: 800px;
+      width: 100%;
+    }
+  
+    .header-overlay5{
+      position: absolute;
+      top: 1450px;
+      width: 100%;
+    }
+    
+    .Utah{
+      position: relative;
+      top: 2px;
+      padding-left: 10px;
+    }
+  
+    .content{
+      position: absolute !important;
+      top: 70% !important;
+      transform: translate(-50%, -50%) !important;
+      text-transform: uppercase !important;
+      text-align: center !important;
+    }
+  
+    .contect{
+      width: 100% !important;
+    }
+  
+    .content h1{
+      color: white !important;
+      font-size: 30px !important;
+      letter-spacing: 16px !important;
+    }
+    
+    .content a{
+      background: #0984e3 !important;
+      padding: 10px 24px !important;
+      color: white !important;
+      text-decoration: none !important;
+      font-size: 18px !important;
+      border-radius: 20px !important;
+    }
+  
+    .background{
+      width: 100% !important;
+    }
+  
+    .ui-basic-table-cardi{
+      width: 100% !important;
+    }
+  
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 8px black !important;
+      border-radius: 10px !important;
+    }
+    
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px black !important;
+      border-radius: 90px !important;
+    }
+    
+    ::-webkit-scrollbar {
+      width: 8px !important;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: #0984e3 !important;
+      border-radius: 15px !important;
+    }
+  
+    .cust{
+      padding-top: 30px;
+      display: grid !important;
+    }
+  
+    .customCardlook {
+      padding: 1em .01em !important; 
+   } 
+  
+    .content{
+      width: 100% !important;
+      top: 80%;
+      left: 50%;
+      font-size: small;
+    }
+  
+    .section-top {
+      width: 100% !important;
+      height: 350px !important;
+    }
+  
+    .section-topps2{
+      width: 100% !important;
+      height: 300px !important;
+    }
+  
+    .section-topps{
+      width: 100% !important;
+      height: 300px !important;
+    }
+  
+    .Card2{
+      width: 100% !important;
+    }
+  
+    .column{
+      width: 100% !important;
+      padding-top: 30px;
+      display: grid !important;
+    }
+  
+    select{
+      width: 100% !important; 
+    }
+  
+    .ui-four-column{
+      width: 100% !important; 
+    }
+  
+    .content {
+      width: 100% !important;
+      font-size: small;
+    }
+  
+    .sidebyside{
+      width: 100% !important;
+    }
+  
+    .navHomeBtn{
+      background-color: #0985e34d;
+      padding-top: 60px;
+      padding-left: 65px;
+      color: black !important;
+      font-size: 23px;
+    }
+  
+    .navHomeBtn2{
+      background-color: black;
+      padding-top: 60px;
+      padding-left: 65px;
+      color: black;
+      font-size: 23px;
+    }
+  
+    P {
+      width: 100% !important;
+    }
+  
+    .ui.card:last-child{
+      width: 100% !important;
+    }
+  
+    center {
+      width: 100% !important;
+    }
+  
+    .footsie {
+      width: 100% !important;
+      font-size: 18px !important;
+      height: 230px;
+    }
+  
+    .Footsie2 {
+      background: black;
+      height: 250px;
+      font-size: 18px !important;
+      width: 129%;
+    }
+  
+      .black{
+        background-color: black;
+      }
+      
+      body{
+        width: 100% !important;
+      }
+  
+      p{
+        width: 100% !important;
+        font-size: small;
+      }
+  
+      .text{
+        font-size: small;
+      }
+  
+      center{
+        width: 129% !important;
+      }
+  
+      Footer{
+        width: 100% !important;
+      }
+  
+      Table{
+        width: 100% !important;
+      }
+  
+      .sidebyside{
+        font-size: small;
+      }
+  }
+
+.vid{
+  opacity: 0.4;
+}
+
+.vid2{
+  opacity: 0.3;
+  background: linear-gradient(45deg,#0984e3,transparent)!important;
+}
+
+.ui.selection.dropdown {
+  color: #0984e3 !important;
+}
+
+.cardi{
+  background: linear-gradient(45deg,#0984e3,transparent)!important;
+  width: 1000px !important;
+}
+
+.c{
+  background: linear-gradient(45deg,#0984e3,transparent)!important;
+  width: 1000px !important;
+}
+
+@media screen and (max-width: 375px) {
+  .c{
+    width: 100% !important;
+  }
+
+  .ui.basic.table {
+    width: 299px !important;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .c{
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  
+  .c{
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 2233px) {
+  
+  .c{
+    width: 70% !important;
+  }
+
+  .cardi{
+    width: 70% !important;
+  }
+
+}
+
+.cardi2{
+  background: linear-gradient(45deg, black,transparent)!important;
+  width: 1000px !important;
+}
+
+.one{
+  background: #0984e3;
+  height: 100px;
+  width: 1000px;
+  box-shadow: 0 10px 10px 0 , 0 0 0 1px #d4d4d5 !important;
+}
+
+.blackground{
+  background-repeat: no-repeat;
+  background-size: 100% 100% !important;
+  background: url(https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  color: rgb(189, 189, 255);
+  height: 1000px;
+}
+
+.widthscar{
+  width: 55% !important;
+}
+
+.bigger{
+  height: 100px;
+}
+
+.biggerFont{
+  font-size: 35px;
+}
+
+
+
+
