@@ -3,6 +3,7 @@ import Navbar2 from "./Navbar2.js";
 import { Card, Button, Icon } from "semantic-ui-react";
 import like3 from "../images/like3.JPG";
 import Footer2 from "../components/Footer2";
+import FootPro2 from "../components/FootPro2"
 import DevResume from "../files/DevResume.pdf";
 
 const About = () => (
@@ -456,7 +457,8 @@ const About = () => (
         <br /><br /><br /><br />
       </div>
     </center>
-    <Footer2 />
+    {/* <Footer2 /> */}
+    <FootPro2 />
   </>
 )
 
