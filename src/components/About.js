@@ -457,8 +457,7 @@ const About = () => (
         <br /><br /><br /><br />
       </div>
     </center>
-    {/* <Footer2 /> */}
-    <FootPro2 />
+    <Footer2 />
   </>
 )
 
