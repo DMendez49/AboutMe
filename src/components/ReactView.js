@@ -19,10 +19,6 @@ export default ReactView =>
       link="/Projects"
     >
       <h1>React</h1>
-      {/* <Grid.Column> */}
-        {/* <Grid columns={4}
-          align="center"
-        > */}
           <div class="sidebyside">
             <div>
               <Button
@@ -49,8 +45,6 @@ export default ReactView =>
               <h3>react-Flash-Card</h3>
             </div>
           </div>
-        {/* </Grid>
-      </Grid.Column> */}
     </Card>
     <br /><br />
   </center>
