@@ -1,7 +1,5 @@
-
 import React from "react";
 import { Card, Grid, Button } from "semantic-ui-react";
-
 
 const white = {
   backgroundColor: "white",
@@ -11,47 +9,54 @@ const white = {
   height: "300px"
 }
 
-export default JavaView =>
+export default JavaScriptView =>
 
-  <center>
-    <br /><br />
-    <Card style={white}
-      link="/Projects"
-      className="cardi"
-    >
-      <h1>Java</h1>
-      <Grid.Column>
-        <Grid columns={4}
-          align="center"
-        >
-          <div class="sidebyside">
-            <div>
-              <Button
-                color="black"
-                className="customCardlook">
-                <a href="https://github.com/DMendez49/Connect4" target="_blank">
-                  <img alt="build diagram" src="https://image.flaticon.com/icons/png/512/226/226777.png" height="150" width="140"></img>
-                </a>
-              </Button>
-              <h3>Connect4</h3>
+  <>
+    <center>
+      <br /><br />
+      <Card style={white}
+        className="cardi"
+        link="/Projects"
+      >
+        <h1>JavaScript</h1>
+        <Grid.Column>
+          <Grid columns={4}
+            align="center"
+          >
+            <div class="sidebyside">
+
+              <div>
+                <Button
+                  color="black"
+                  className="customCardlook">
+                  <a href="https://github.com/DMendez49/contextApp/tree/master/src/components" target="_blank">
+                    <img alt="build diagram" src="http://pluspng.com/img-png/logo-javascript-png-file-javascript-logo-png-1052.png"
+                      height="150"
+                      width="141"
+                    >
+                    </img>
+                  </a>
+                </Button>
+                <h3>contextApp</h3>
+              </div>
+              <div>
+                <Button
+                  color="black"
+                  className="customCardlook">
+                  <a href="https://github.com/DMendez49/Flash_Cards" target="_blank">
+                    <img alt="build diagram" src="http://pluspng.com/img-png/logo-javascript-png-file-javascript-logo-png-1052.png"
+                      height="150"
+                      width="141"
+                    >
+                    </img>
+                  </a>
+                </Button>
+                <h3>Flash_Cards</h3>
+              </div>
             </div>
-            <div>
-              <Button
-                color="black"
-                className="customCardlook">
-                <a href="https://github.com/DMendez49/Final_Stimulator_Howw" target="_blank">
-                  <img alt="build diagram" src="https://image.flaticon.com/icons/png/512/226/226777.png"
-                    height="150"
-                    width="141"
-                  >
-                  </img>
-                </a>
-              </Button>
-              <h3>Final_Stimulator_Howw</h3>
-            </div>
-          </div>
-        </Grid>
-      </Grid.Column>
-    </Card>
-    <br /><br />
-  </center>
+          </Grid>
+        </Grid.Column>
+      </Card>
+      <br /><br />
+    </center>
+  </>
