@@ -312,6 +312,10 @@ const SLCC = {
   paddingLeft: "50px"
 }
 
+const Vegeta = {
+  // this is to test update
+}
+
 
 export default Home;
 
