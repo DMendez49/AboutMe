@@ -5017,7 +5017,7 @@ height: 150px;
   }
 
   .Footsie2 {
-    /* top: 4510px !important; */
+    padding-top: 0px !important;
     background: black;
     height: 250px;
     font-size: 18px !important;
@@ -5078,10 +5078,6 @@ height: 150px;
     .text, p {
       font-size: small !important;
   }
-
-  /* .forImg{
-    top: 0px !important;
-  } */
 
 }
  
