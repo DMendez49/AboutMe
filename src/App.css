@@ -4784,15 +4784,9 @@ height: 150px;
     padding-left: 35px;
   }
 
-  /* .foots2{
-    position: absolute;
-    top: 4400px ;
-    width: 100%;
-    padding-left: 15px;
-  } */
   .foots2 {
     position: absolute;
-    top: 4200px !important;
+    top: 4060px!important;
     width: 100%;
     padding-left: 20px;
 }
