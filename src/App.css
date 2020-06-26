@@ -5075,6 +5075,10 @@ height: 150px;
       padding-left: 20px;
     }
 
+    .text, p {
+      font-size: small !important;
+  }
+
 }
  
 /* I Phone size */
