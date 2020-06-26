@@ -4719,7 +4719,7 @@ height: 150px;
   .navHomeBtn2{
     background-color: black;
     padding-top: 60px;
-    padding-left: 48px !important;
+    padding-left: 85px!important;
     color: black;
     font-size: 23px;
   }
@@ -4923,10 +4923,10 @@ height: 150px;
     border-radius: 15px !important;
   }
 
-  .cust{
+  .cust {
     padding-top: 30px;
     display: grid !important;
-    padding-right: 150px;
+    padding-right: 128px !important;
   }
 
   .customCardlook {
