@@ -4783,7 +4783,7 @@ height: 150px;
 
   .foots2{
     position: absolute;
-    top: 4400px ;
+    top: 4510px !important ;
     width: 100%;
     padding-left: 15px;
   }
