@@ -431,8 +431,8 @@ const About = () => (
               </img>
               <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
               <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                            Facilitator/Office Coordinator - Cottonwood Heights, UT 08/2015 - 04/2017
-                            </header>
+                Facilitator/Office Coordinator - Cottonwood Heights, UT 08/2015 - 04/2017
+            </header>
             <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <hr />
