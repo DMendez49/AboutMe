@@ -4762,7 +4762,6 @@ height: 150px;
   .prolay3{
     position: absolute;
     top: 505px;
-    /* width: 100%; */
     padding-left: 80px;
   }
   
@@ -5018,7 +5017,7 @@ height: 150px;
   }
 
   .Footsie2 {
-    padding-top: 0px;
+    /* top: 4510px !important; */
     background: black;
     height: 250px;
     font-size: 18px !important;
@@ -5078,6 +5077,10 @@ height: 150px;
 
     .text, p {
       font-size: small !important;
+  }
+
+  .forImg{
+    top: 0px !important;
   }
 
 }
