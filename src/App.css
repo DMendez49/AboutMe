@@ -6130,6 +6130,13 @@ and (-webkit-device-pixel-ratio: 1) {
   }
 }
 
+@media screen and (max-width: 375px) {
+  .section-top{
+    height: 850px !important;
+  }
+}
+
+
 @media screen and (max-width: 2233px) {
   
   .c{
