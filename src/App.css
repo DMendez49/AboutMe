@@ -5639,7 +5639,7 @@ and (-webkit-device-pixel-ratio: 1) {
 
   .section-top {
     width: 100% !important;
-    height: 350px !important;
+    height: 350px;
   }
 
   .section-topps2{
