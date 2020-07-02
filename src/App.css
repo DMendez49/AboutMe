@@ -5642,6 +5642,10 @@ and (-webkit-device-pixel-ratio: 1) {
     height: 350px;
   }
 
+  video{
+    width: 1300px;
+  }
+
   .section-topps2{
     width: 100% !important;
     height: 300px !important;
