@@ -5575,7 +5575,7 @@ and (-webkit-device-pixel-ratio: 1) {
 
   .content{
     position: absolute !important;
-    top: 70% !important;
+    top: 40% !important;
     transform: translate(-50%, -50%) !important;
     text-transform: uppercase !important;
     text-align: center !important;
