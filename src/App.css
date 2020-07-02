@@ -112,10 +112,15 @@
 }
 
 .school{
-  position: absolute;
+  /* position: absolute;
   top: 2170px;
   width: 70%;
-  padding-left: 620px;
+  padding-left: 620px; */
+  position: absolute;
+  top: 1770px;
+  width: 70%;
+  padding-left: 577px;
+
 }
 
 .header-overlay4ish{
