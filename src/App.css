@@ -5425,6 +5425,7 @@ height: 150px;
 
 
 /* I Phone size */
+
 @media only screen and (min-device-width: 320px) 
 and (-webkit-device-pixel-ratio: 1) { 
 
@@ -5533,32 +5534,37 @@ and (-webkit-device-pixel-ratio: 1) {
 
   .header-overlay{
     position: absolute;
-    top: 400px;
+    top: 760px;
     width: 100%;
+    left: 20%;
   }
 
   .header-overlay2{
     position: absolute;
-    top: 615px;
+    top: 960px;
     width: 100%;
+    left: 17.5%;
   }
 
   .header-overlay3{
     position: absolute;
-    top: 710px;
+    top: 1070px;
     width: 100%;
+    left: 20%;
   }
 
   .header-overlay4{
     position: absolute;
-    top: 800px;
-    width: 100%;
+    top: 1232.1px;
+    width: 94% !important;
+    left: 5%;
   }
 
   .header-overlay5{
     position: absolute;
-    top: 1450px;
+    top: 1850px;
     width: 100%;
+    left: 2%;
   }
   
   .Utah{
