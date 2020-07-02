@@ -225,7 +225,11 @@
 }
 
 .school{
-  padding-bottom: 55px;
+  /* padding-bottom: 55px; */
+  position: absolute;
+  top: 2180px;
+  width: 70%;
+  padding-left: 620px;
 }
 
 .phys-Width{
