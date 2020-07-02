@@ -5758,6 +5758,7 @@ and (-webkit-device-pixel-ratio: 1) {
 }
 
 /* I Phone size */
+/* 
 @media screen and (max-width: 320px) {
 
   .content2{
@@ -6086,7 +6087,7 @@ and (-webkit-device-pixel-ratio: 1) {
       .sidebyside{
         font-size: small;
       }
-  }
+  } */
 
 .vid{
   opacity: 0.4;
