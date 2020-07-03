@@ -1276,32 +1276,32 @@ height: 150px;
     font-size: 14px !important;
   }
 
-    .black{
+    .black {
       background-color: black;
     }
     
-    body{
+    body {
       width: 100% !important;
     }
 
-    p{
+    p {
       width: 100% !important;
       font-size: medium;
     }
 
-    .text{
+    .text {
       font-size: large;
     }
 
-    center{
+    center {
       width: 100% !important;
     }
 
-    Footer{
+    Footer {
       width: 100% !important;
     }
 
-    Table{
+    Table {
       width: 100% !important;
     }
 
@@ -1359,6 +1359,14 @@ height: 150px;
       width: 80%;
       left: 10%;
     }
+
+    .school {
+      /* padding-bottom: 55px; */
+      position: absolute;
+      top: 2180px;
+      width: 70%;
+      padding-left: 620px;
+  }
 
 }
 
