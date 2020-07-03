@@ -1822,6 +1822,13 @@ height: 150px;
       top: 1608.5px;
     }
 
+    .header-overlay4ish {
+      position: absolute;
+      top: 1570px;
+      width: 64.1%;
+      left: 19.5% !important;
+    }
+
     .header-overlay5{
       position: absolute;
       top: 2280px;
