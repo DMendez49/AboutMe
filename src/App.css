@@ -124,14 +124,10 @@
 }
 
 .header-overlay4ish{
-  /* position: absolute;
+  position: absolute;
   top: 1970px;
   width: 70%;
-  left: 15% !important; */
-  position: absolute;
-  top: 1570px;
-  width: 63.5%;
-  left: 20% !important;
+  left: 15% !important;
 }
 
 .header-overlay5{
