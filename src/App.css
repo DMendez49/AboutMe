@@ -1694,7 +1694,7 @@ height: 150px;
 
   .section-top {
     width: 100% !important;
-    height: 1000px !important;
+    height: 800px !important;
   }
 
   .section-topps2{
@@ -2498,7 +2498,7 @@ height: 150px;
   
     .section-top {
       width: 100% !important;
-      height: 700px !important;
+      height: 800px !important;
     }
   
     .section-topps2{
@@ -5566,35 +5566,35 @@ and (-webkit-device-pixel-ratio: 1) {
 
   .header-overlay{
     position: absolute;
-    top: 760px;
+    top: 840px;
     width: 100%;
     left: 20%;
   }
 
   .header-overlay2{
     position: absolute;
-    top: 960px;
+    top: 1030px;
     width: 100%;
     left: 17.5%;
   }
 
   .header-overlay3{
     position: absolute;
-    top: 1070px;
+    top: 1140px;
     width: 100%;
     left: 20%;
   }
 
   .header-overlay4{
     position: absolute;
-    top: 1232.1px;
+    top: 1292.1px;
     width: 94% !important;
     left: 5%;
   }
 
   .header-overlay5{
     position: absolute;
-    top: 1850px;
+    top: 1920px;
     width: 100%;
     left: 2%;
   }
