@@ -70,8 +70,8 @@ const About = () => (
               >
               </img>
               <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                                React-Flash-Cards
-                            </header>
+                React-Flash-Cards
+              </header>
             <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <hr />
             <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -80,13 +80,13 @@ const About = () => (
               <p>
                 <li>
                   Implemented React Router using semantic-ui-react components.
-                            </li>
-                <li>
-                  Performed all crud actions, Create, read, update and delete inside establishment navigation.
-                            </li>
+                </li>
+                  <li>
+                    Performed all crud actions, Create, read, update and delete inside establishment navigation.
+                  </li>
                 <li>
                   Update all of state backend functionality & acceded UI design using class components, Css, Sass, Scss
-                            </li>
+               </li>
                 <li>
                   <img alt="build diagram"
                     src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"

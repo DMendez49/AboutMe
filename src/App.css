@@ -2259,7 +2259,7 @@ height: 150px;
   }
 
   .card{
-    width: 80%;
+    width: 100%;
   }
 
   .content3 {
@@ -5660,8 +5660,9 @@ and (-webkit-device-pixel-ratio: 1) {
   }
 
   .cust{
-    padding-top: 30px;
-    display: grid !important;
+    padding-top: 0px;
+    display: flex !important;
+    padding-left: 1200px;
   }
 
   .customCardlook {
