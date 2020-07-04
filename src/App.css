@@ -5542,10 +5542,10 @@ and (-webkit-device-pixel-ratio: 1) {
 
   .foots-footer {
     position: absolute;
-    top: 1840px;
+    top: 2392px;
     width: 100%;
-    font-size: small;
-    padding-left: 45px;
+    font-size: large;
+    padding-left: 165px;
   }
 
   .foots-footer2 {
