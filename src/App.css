@@ -1861,6 +1861,14 @@ height: 150px;
       left: 10%;
     }
 
+    .school {
+      /* padding-bottom: 55px; */
+      position: absolute;
+      top: 1780px;
+      width: 70%;
+      padding-left: 577px;
+  }
+
 }
 
 
