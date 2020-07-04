@@ -6158,6 +6158,12 @@ and (-webkit-device-pixel-ratio: 1) {
   .ui.basic.table {
     width: 299px !important;
   }
+
+  .section-top {
+    width: 112% !important;
+    height: 400px !important;
+  }
+
 }
 
 @media screen and (max-width: 414px) {
@@ -6175,7 +6181,7 @@ and (-webkit-device-pixel-ratio: 1) {
 
 @media screen and (max-width: 375px) {
   .section-top{
-    height: 850px !important;
+    /* height: 850px !important; */
   }
 }
 
