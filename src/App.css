@@ -2355,7 +2355,7 @@ height: 150px;
   
     .foots2{
       position: absolute;
-      top: 4373px !important;
+      top: 3030px !important;
       width: 100%;
       padding-left: 690px;
     }
@@ -5455,7 +5455,6 @@ height: 150px;
     
 }
 
-
 /* I Phone size */
 
 @media only screen and (min-device-width: 320px) 
@@ -5537,7 +5536,7 @@ and (-webkit-device-pixel-ratio: 1) {
     position: absolute;
     top: 2350px;
     width: 100%;
-    padding-left: 935px;
+    padding-left: 905px;
   }
 
   .foots-footer {
