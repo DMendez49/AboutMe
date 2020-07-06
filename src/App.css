@@ -5547,10 +5547,10 @@ and (-webkit-device-pixel-ratio: 1) {
 
   .foots-footer2 {
     position: absolute;
-    top: 3275px;
+    top: 3270px;
     width: 100%;
     font-size: large;
-    padding-left: 210px;
+    padding-left: 190px;
   }
 
   .footerContact {
