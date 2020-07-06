@@ -2694,7 +2694,6 @@ height: 150px;
       width: 100%;
       padding-left: 25px;
     }
-  
     
     .prolay{
       position: absolute;
@@ -2706,7 +2705,6 @@ height: 150px;
       position: absolute;
       top: 455px;
       width: 80%;
-      /* left: 10%; */
     }
     
     .prolay3{
@@ -3006,7 +3004,7 @@ height: 150px;
     position: absolute;
     top: 3800px;
     width: 100%;
-    padding-left: 35px;
+    padding-left: 840px;
   }
 
   .navHomeBtn{
