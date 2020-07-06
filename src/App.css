@@ -5547,9 +5547,9 @@ and (-webkit-device-pixel-ratio: 1) {
 
   .foots-footer2 {
     position: absolute;
-    top: 3830px;
+    top: 3275px;
     width: 100%;
-    font-size: small;
+    font-size: large;
     padding-left: 45px;
   }
 
