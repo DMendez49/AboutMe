@@ -5484,10 +5484,10 @@ and (-webkit-device-pixel-ratio: 1) {
 
 .pro-footer{
   position: absolute;
-  top: 1535px;
+  top: 1537px;
   width: 100%;
-  padding-left: 45px;
-  font-size: small;
+  padding-left: 155px;
+  font-size: large;
 }
 
   .footpro{
