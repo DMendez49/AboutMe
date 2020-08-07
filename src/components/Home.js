@@ -255,7 +255,8 @@ const Home = () => (
             <center>
               <p style={black} class="height2">
                 In addition to my studies I attended a Coding Boot-Camp with the University Of Utah
-                at Dev Point Labs. I will continue this journey by challenging myself daily.
+                at <strong> Dev Point Labs.</strong>
+                I will continue this journey by challenging myself daily.
             </p>
               <p style={red} class="click">
                 Click "About" for more information listed above.
