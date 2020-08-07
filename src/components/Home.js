@@ -205,7 +205,7 @@ const Home = () => (
               <p style={black} class="height">
                 My love for computer science grew more with my time at Instructure.
                 I am a self taught programmer, and I expanded my skills by completing
-                the following courses at Salt Lake Comunity College.
+                the following courses at <strong> Salt Lake Comunity College.</strong>
                 </p>
               <br /><br />
             </Card>
@@ -255,7 +255,7 @@ const Home = () => (
             <center>
               <p style={black} class="height2">
                 In addition to my studies I attended a Coding Boot-Camp with the University Of Utah
-                at <strong> Dev Point Labs.</strong>
+                at <strong> DevPoint Labs.</strong>
                 I will continue this journey by challenging myself daily.
             </p>
               <p style={red} class="click">
