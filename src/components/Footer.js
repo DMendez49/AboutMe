@@ -34,7 +34,8 @@ class Footer extends React.Component {
           <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a href="https://github.com/DMendez49" target="_blank">
-            <img alt="build diagram"  style={adjust} src="https://cdn.iconscout.com/icon/free/png-512/github-brand-logo-47401.png" width="90" height="60"></img></a>
+            <img alt="build diagram"  style={adjust} src="https://cdn.iconscout.com/icon/free/png-512/github-brand-logo-47401.png" width="90" height="70"
+            ></img></a>
           <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a href="https://www.facebook.com/profile.php?id=100001773444206&ref=bookmarks" target="_blank">
@@ -54,6 +55,7 @@ const Footsie = {
 
 const adjust = {
   paddingTop: "10px"
+  height: ""
 }
 
 export default Footer;
