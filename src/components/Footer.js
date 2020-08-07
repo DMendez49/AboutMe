@@ -34,7 +34,7 @@ class Footer extends React.Component {
           <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a href="https://github.com/DMendez49" target="_blank">
-            <img alt="build diagram" src="http://pngimg.com/uploads/github/github_PNG20.png" width="80" height="50"></img></a>
+            <img alt="build diagram" src="https://www.google.com/url?sa=i&url=http%3A%2F%2Fpngimg.com%2Fdownload%2F73377&psig=AOvVaw1TDh_mXFjjWhIZ7PRmBEkm&ust=1596918765697000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPjgjpD4iesCFQAAAAAdAAAAABAD" width="80" height="50"></img></a>
           <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a href="https://www.facebook.com/profile.php?id=100001773444206&ref=bookmarks" target="_blank">
