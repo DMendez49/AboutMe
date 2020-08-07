@@ -203,7 +203,7 @@ const Home = () => (
             >
               <br /><br />
               <p style={black} class="height">
-                My love for computer science grew more with my time at Instructure.
+                My love for computer science grew more with my time at <strong>Instructure</strong>.
                 I am a self taught programmer, and I expanded my skills by completing
                 the following courses at <strong> Salt Lake Comunity College.</strong>
                 </p>
