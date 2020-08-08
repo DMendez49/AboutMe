@@ -55,7 +55,6 @@ const Footsie = {
 
 const adjust = {
   paddingTop: "10px"
-  height: ""
 }
 
 export default Footer;
