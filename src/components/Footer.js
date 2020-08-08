@@ -18,7 +18,6 @@ class Footer extends React.Component {
           </img>
           <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <div >
-
             <div class="foots-footer">
               Salt Lake City, Utah / DevMendez.com  /  (801) 980-4786
           </div>
@@ -34,7 +33,7 @@ class Footer extends React.Component {
           <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <a href="https://github.com/DMendez49" target="_blank">
-            <img alt="build diagram"  style={adjust} src="https://cdn.iconscout.com/icon/free/png-512/github-brand-logo-47401.png" width="90" height="95"
+            <img alt="build diagram" style={adjust} src="https://cdn.iconscout.com/icon/free/png-512/github-brand-logo-47401.png" width="90" height="95"
             ></img></a>
           <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -54,7 +53,7 @@ const Footsie = {
 }
 
 const adjust = {
-  paddingTop: "30px"
+  paddingTop: "35px"
 }
 
 export default Footer;
