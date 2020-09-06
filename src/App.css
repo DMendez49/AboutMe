@@ -3455,7 +3455,7 @@ height: 150px;
     position: absolute;
     top: 520px;
     width: 100%;
-    left: 32px;
+    left: px;
   }
 
   .header-overlay2{
@@ -3684,6 +3684,12 @@ height: 150px;
 
     .navHomeBtn2{
       padding-left: 155px !important;
+    }
+
+    .header-overlay2{
+      position: absolute;
+      top: 745px;
+      width: 100%;
     }
   }
   
