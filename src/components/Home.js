@@ -270,7 +270,7 @@ const Home = () => (
             <div class="editForPhone">
               <div class="sidebyside">
                 <div class="Utah">
-                  <img alt="build diagram" src="https://umc.utah.edu/wp-content/uploads/sites/15/2015/01/BlockU_400px.png"
+                  <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Utah_Utes_-_U_logo.svg/1121px-Utah_Utes_-_U_logo.svg.png"
                     width="180" height="167" style={UT}>
                   </img>
                 </div>
