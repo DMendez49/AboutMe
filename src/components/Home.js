@@ -271,7 +271,7 @@ const Home = () => (
               <div class="sidebyside">
                 <div class="Utah">
                   <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Utah_Utes_-_U_logo.svg/1121px-Utah_Utes_-_U_logo.svg.png"
-                    width="120" height="127" style={UT}>
+                    width="120" height="100" style={UT}>
                   </img>
                 </div>
                 <img alt="build diagram" src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/2475/s300/beaker-white-256.png"
