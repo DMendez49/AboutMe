@@ -306,7 +306,7 @@ const UT = {
 }
 
 const padding = {
-  paddingRight: "70px"
+  // paddingRight: "70px"
 }
 
 const SLCC = {
