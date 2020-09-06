@@ -1872,7 +1872,6 @@ height: 150px;
 
 }
 
-
 /* I Phone size */
 @media screen and (max-width: 1400px) {
 
@@ -3672,6 +3671,12 @@ height: 150px;
 
     .sidebyside{
       font-size: small;
+    }
+  }
+
+  @media screen and(max-width: 640){
+    .navHomeBtn2{
+      padding-left: 155px !important;
     }
   }
   
