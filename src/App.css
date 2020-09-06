@@ -3573,6 +3573,10 @@ height: 150px;
     height: 300px !important;
   }
 
+  .card{
+    width: 100% !important;
+  }
+
   .Card2{
     width: 100% !important;
   }
@@ -3674,7 +3678,8 @@ height: 150px;
     }
   }
 
-  @media screen and(max-width: 640){
+  @media screen and( max-width: 640){
+
     .navHomeBtn2{
       padding-left: 155px !important;
     }
