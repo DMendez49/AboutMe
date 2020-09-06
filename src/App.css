@@ -3454,7 +3454,8 @@ height: 150px;
   .header-overlay{
     position: absolute;
     top: 520px;
-    width: 70%;
+    width: 100%;
+    left: 40px;
   }
 
   .header-overlay2{
