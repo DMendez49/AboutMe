@@ -3575,6 +3575,7 @@ height: 150px;
 
   .card{
     width: 100% !important;
+    top: -23px;
   }
 
   .Card2{
