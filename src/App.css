@@ -617,7 +617,6 @@ section .scroll{
   display: grid;
   place-items: center;
   text-align: center;
-  /* border: 10px solid #fff; */
   margin-bottom: 100px;
 }
 
@@ -6201,7 +6200,6 @@ and (-webkit-device-pixel-ratio: 1) {
     /* height: 850px !important; */
   }
 }
-
 
 @media screen and (max-width: 2233px) {
   

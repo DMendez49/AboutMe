@@ -81,8 +81,8 @@ const About = () => (
                 <li>
                   Implemented React Router using semantic-ui-react components.
                 </li>
-                  <li>
-                    Performed all crud actions, Create, read, update and delete inside establishment navigation.
+                <li>
+                  Performed all crud actions, Create, read, update and delete inside establishment navigation.
                   </li>
                 <li>
                   Update all of state backend functionality & acceded UI design using class components, Css, Sass, Scss
@@ -389,7 +389,7 @@ const About = () => (
           <p class="text">
             <header align="left">
               <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-              <img alt="build diagram" src="https://www.xytrondatarecovery.co.uk/wp-content/uploads/2015/07/sykes-logo.png"
+              <img alt="build diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/SYKES-Logo-Standard-CMYK-Blue.png/1280px-SYKES-Logo-Standard-CMYK-Blue.png"
                 width="140" height="50">
               </img>
               <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>

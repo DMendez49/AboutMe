@@ -27,7 +27,9 @@ const Home = () => (
     <div class="background">
       <body class="background" >
         <video src={code} autoPlay="true" loop="true" class="vid"></video>
-        <video src={physics} autoPlay="true" loop="true" class="vid"></video>
+        <video 
+        src={physics} 
+        autoPlay="true" loop="true" class="vid"></video>
         <section class="header-overlay">
           <div class="scroll">
             <span>
